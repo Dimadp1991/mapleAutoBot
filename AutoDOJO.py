@@ -28,14 +28,14 @@ if __name__ == '__main__':
     # speed cap to 250
     sleep(2)
     while True:
-        # AutoBuff()
+        AutoBuff()
         pyautogui.click(x=1283,y=454)
         sleep(1)
-        button_press('down',1)
+        # button_press('down',1) #for party dojo option
         button_press('enter',1)
         # Point(x=1283, y=454) DOJO enterence 
         button_press(key='right',how_many=1)
-        interval_shoot = datetime.now() + pd.DateOffset(minutes=2.1)
+        interval_shoot = datetime.now() + pd.DateOffset(minutes=2.2)
         while datetime.now()< interval_shoot:
             pydirectinput.keyDown('a')
         sleep(1)
@@ -47,7 +47,7 @@ if __name__ == '__main__':
         sleep(1)
         button_press('up',1)
         button_press('up',1)
-        sleep(3)
+        sleep(2)
 
 
     # print(pyautogui.position())

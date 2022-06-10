@@ -5,6 +5,7 @@ from pip import main
 import pydirectinput
 from  datetime import datetime
 import pandas as pd
+import keyboard
 
  
 
@@ -30,9 +31,9 @@ if __name__ == '__main__':
     while True:
         sleep(3)
         AutoBuff()
-        fixed=False
+        run_auto_player=True
         current_time=datetime.now()
-        current_two = current_time + pd.DateOffset(minutes=2)
+        current_two = current_time + pd.DateOffset(minutes=3)
         interval_side = current_time + pd.DateOffset(seconds=10)
         interval_step = current_time + pd.DateOffset(seconds=6)
         while datetime.now()< current_two:
@@ -44,3 +45,10 @@ if __name__ == '__main__':
                 interval_step = datetime.now() + pd.DateOffset(seconds=6)
 
             pydirectinput.keyDown("space")
+            if keyboard.is_pressed("="):
+                sleep(0.5)
+                while True:
+                    if keyboard.is_pressed("="):
+                        sleep(0.5)
+                        break
+
