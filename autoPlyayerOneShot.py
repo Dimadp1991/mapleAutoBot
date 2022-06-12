@@ -11,13 +11,28 @@ import keyboard
 
 def AutoBuff():
     pydirectinput.keyDown("c")
-    sleep(2)
+    sleep(3)
     # pydirectinput.keyDown("d")
-    # sleep(2)
+    # sleep(3)
     pydirectinput.keyDown("v")
     sleep(3)
-    # pydirectinput.keyDown("n")
-    # sleep(3)
+    pydirectinput.keyDown("n")
+    sleep(3)
+
+
+def AutoSell():
+    pydirectinput.keyDown("enter")
+    sleep(0.5)
+    pydirectinput.keyDown("up")
+    sleep(0.5)
+    pydirectinput.keyUp("up")
+    pydirectinput.keyDown("enter")
+    sleep(0.5)
+    pydirectinput.keyDown("enter")
+    sleep(0.5)
+    pydirectinput.keyUp("enter")
+
+
 
 def fast_step(side,how_many):
     pydirectinput.keyDown(side)
@@ -31,18 +46,19 @@ if __name__ == '__main__':
     while True:
         sleep(3)
         AutoBuff()
+        AutoSell()
         run_auto_player=True
         current_time=datetime.now()
         current_two = current_time + pd.DateOffset(minutes=3)
-        interval_side = current_time + pd.DateOffset(seconds=10)
-        interval_step = current_time + pd.DateOffset(seconds=6)
+        interval_side = current_time + pd.DateOffset(seconds=20)
+        interval_step = current_time + pd.DateOffset(seconds=2)
         while datetime.now()< current_two:
             if datetime.now() >= interval_side:
                 random_int+=1
-                interval_side = datetime.now() + pd.DateOffset(seconds=30)
+                interval_side = datetime.now() + pd.DateOffset(seconds=20)
             if datetime.now() > interval_step:
                 fast_step("left" if random_int % 2 == 0 else "right",1)
-                interval_step = datetime.now() + pd.DateOffset(seconds=6)
+                interval_step = datetime.now() + pd.DateOffset(seconds=2)
 
             pydirectinput.keyDown("space")
             if keyboard.is_pressed("="):
