@@ -13,9 +13,9 @@ import threading
 def AutoBuff():
     pydirectinput.keyDown("c")
     sleep(3)
-    pydirectinput.keyDown("d")
-    sleep(3)
     pydirectinput.keyDown("v")
+    sleep(3)
+    pydirectinput.keyDown("n")
     sleep(3)
     # pydirectinput.keyDown("n")
     # sleep(3)
@@ -33,22 +33,17 @@ def AutoSell():
     sleep(0.5)
     pydirectinput.keyUp("enter")
 
-def press_button(key):
-    pydirectinput.keyDown(key=key)
-    sleep(0.5)
-    pydirectinput.keyUp(key=key)
-
 def fast_step(side,how_many):
-    th1=threading.Thread(target=press_button,args=[side])
-    th2=threading.Thread(target=press_button,args=['x'])
-    th1.start()
-    th2.start()
-    th1.join()
-    th2.join()
-    sleep(0.5)
-    # pydirectinput.keyUp(side)
-    # pydirectinput.keyDown("left" if side == "right" else "right" )
-    # pydirectinput.keyUp("left" if side == "right" else "right" )
+    pydirectinput.keyDown(key=side)
+    sleep(how_many)
+    pydirectinput.keyUp(key=side)
+    pydirectinput.keyDown(key='x')
+    pydirectinput.keyDown(key='x')
+    sleep(how_many)
+    pydirectinput.keyUp(key='x')
+    pydirectinput.keyDown("left" if side == "right" else "right" )
+    pydirectinput.keyUp("left" if side == "right" else "right" )
+    
 if __name__ == '__main__':
     sleep(3)
     random_int=0
@@ -59,12 +54,12 @@ if __name__ == '__main__':
         run_auto_player=True
         current_time=datetime.now()
         current_two = current_time + pd.DateOffset(minutes=3)
-        interval_side = current_time + pd.DateOffset(seconds=6)
+        interval_side = current_time + pd.DateOffset(seconds=10)
         interval_step = current_time + pd.DateOffset(seconds=2)
         while datetime.now()< current_two:
             if datetime.now() >= interval_side:
                 random_int+=1
-                interval_side = datetime.now() + pd.DateOffset(seconds=6)
+                interval_side = datetime.now() + pd.DateOffset(seconds=10)
             if datetime.now() > interval_step:
                 fast_step("left" if random_int % 2 == 0 else "right",1)
                 interval_step = datetime.now() + pd.DateOffset(seconds=2)

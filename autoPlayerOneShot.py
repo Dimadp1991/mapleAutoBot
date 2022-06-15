@@ -16,8 +16,8 @@ def AutoBuff():
     # sleep(3)
     pydirectinput.keyDown("v")
     sleep(3)
-    pydirectinput.keyDown("n")
-    sleep(3)
+    # pydirectinput.keyDown("n")
+    # sleep(3)
 
 
 def AutoSell():
