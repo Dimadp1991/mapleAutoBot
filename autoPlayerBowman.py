@@ -12,12 +12,12 @@ import keyboard
 def AutoBuff():
     pydirectinput.keyDown("c")
     sleep(2)
-    # pydirectinput.keyDown("d")
-    # sleep(2)
+    pydirectinput.keyDown("d")
+    sleep(2)
     pydirectinput.keyDown("v")
     sleep(3)
-    # pydirectinput.keyDown("n")
-    # sleep(3)
+    pydirectinput.keyDown("n")
+    sleep(3)
 
 def fast_step(side,how_many):
     pydirectinput.keyDown(side)

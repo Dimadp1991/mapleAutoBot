@@ -61,7 +61,7 @@ if __name__ == '__main__':
                 random_int+=1
                 interval_side = datetime.now() + pd.DateOffset(seconds=10)
             if datetime.now() > interval_step:
-                fast_step("left" if random_int % 2 == 0 else "right",1)
+                fast_step("left" if random_int % 2 == 0 else "right",0.5)
                 interval_step = datetime.now() + pd.DateOffset(seconds=2)
 
             pydirectinput.keyDown("space")
