@@ -11,17 +11,24 @@ import threading
  
 
 def AutoBuff():
-    pydirectinput.keyDown("d")
+    pydirectinput.keyDown("shift")
     sleep(2)
     pydirectinput.keyDown("c")
-    sleep(3)
-
+    sleep(2)
     pydirectinput.keyDown("v")
-    sleep(3)
+    sleep(2)
     pydirectinput.keyDown("n")
     sleep(2)
-    pydirectinput.keyDown("d")
-    sleep(2)
+
+def MakeCombo(side):
+    pydirectinput.keyDown("down")
+    pydirectinput.keyUp("down")
+    pydirectinput.keyDown(side)
+    pydirectinput.keyUp(side)
+    pydirectinput.keyDown("a")
+    pydirectinput.keyUp("a")
+
+
 
 def AutoSell():
     pydirectinput.keyDown("enter")
@@ -56,17 +63,20 @@ if __name__ == '__main__':
         run_auto_player=True
         current_time=datetime.now()
         current_two = current_time + pd.DateOffset(minutes=3)
-        interval_side = current_time + pd.DateOffset(seconds=10)
-        interval_step = current_time + pd.DateOffset(seconds=2)
+        interval_side = current_time + pd.DateOffset(seconds=20)
+        interval_step = current_time + pd.DateOffset(seconds=3)
         while datetime.now()< current_two:
             if datetime.now() >= interval_side:
                 random_int+=1
-                interval_side = datetime.now() + pd.DateOffset(seconds=10)
+                interval_side = datetime.now() + pd.DateOffset(seconds=20)
+                MakeCombo("left" if random_int % 2 == 0 else "right")
             if datetime.now() > interval_step:
-                fast_step("left" if random_int % 2 == 0 else "right",1)
-                interval_step = datetime.now() + pd.DateOffset(seconds=2)
+                fast_step("left" if random_int % 2 == 0 else "right",1.3)
+                interval_step = datetime.now() + pd.DateOffset(seconds=3)
+                
 
-            pydirectinput.keyDown("space")
+            pydirectinput.keyDown("a")
+            pydirectinput.keyUp("a")
             if keyboard.is_pressed("="):
                 sleep(0.5)
                 while True:

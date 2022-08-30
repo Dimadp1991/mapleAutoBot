@@ -7,7 +7,8 @@ import pyautogui
 from  datetime import datetime
 import pandas as pd
 import threading
-
+import multiprocessing
+import keyboard
 
 def AutoBuff():
     pydirectinput.keyDown("t")
@@ -52,28 +53,27 @@ def move_n_buff():
                 random_int_top+=1   
         random_int+=1 
 
-def write_in_chat(word:list):
-    for letter in word:
-        pydirectinput.keyDown(letter)
-        sleep(0.3)
-        pydirectinput.keyUp(letter)
-
-def write_lettter(letter):
-        pydirectinput.keyDown(letter)
-        sleep(0.3)
-        pydirectinput.keyUp(letter)
-    
-def sell_items():
-    write_lettter('enter')
-    write_lettter('up')
-    write_lettter('enter')
-
 if __name__ == '__main__':
     sleep(3)
-    m_n_buff=threading.Thread(target=move_n_buff)
-    attack_n_chill=threading.Thread(target=hold_a_key)
+    m_n_buff=multiprocessing.Process(target=move_n_buff)
+    attack_n_chill=multiprocessing.Process(target=hold_a_key)
     attack_n_chill.start()
     m_n_buff.start()
+    while True:
+        if keyboard.is_pressed("="):
+            attack_n_chill.terminate()
+            m_n_buff.terminate()
+            sleep(0.5)
+            while True:
+                if keyboard.is_pressed("="):
+                    sleep(0.5)
+                    m_n_buff=multiprocessing.Process(target=move_n_buff)
+                    m_n_buff.start()
+                    attack_n_chill=multiprocessing.Process(target=hold_a_key)
+                    attack_n_chill.start()
+                    break
+
+
 
 
 
