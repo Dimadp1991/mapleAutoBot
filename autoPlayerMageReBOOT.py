@@ -55,10 +55,12 @@ def fast_step_with_jump(side,how_many):
 
 if __name__ == '__main__':
 
+    TELEPORTS_TO_SIDE=4
     INTERVAL_JUMP_UP=10
     INTERVAL_ATTACK_SEC=8
     INTERVAL_CHANGE_SIDE_SEC=20
     TIME_TO_BUFF_IN_MINUTES=2
+    
 
     sleep(3)
     random_int=0
@@ -80,7 +82,7 @@ if __name__ == '__main__':
                 random_int+=1
                 interval_side = datetime.now() + pd.DateOffset(seconds=INTERVAL_CHANGE_SIDE_SEC)
                 pydirectinput.keyUp("a")
-                fast_step("left" if random_int % 2 == 0 else "right",2)
+                fast_step("left" if random_int % 2 == 0 else "right",TELEPORTS_TO_SIDE)
 
             if datetime.now() > tele_up_step:
                 pydirectinput.keyUp("a")
