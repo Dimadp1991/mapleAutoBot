@@ -5,6 +5,8 @@ import tkinter as tk
 import threading
 global window
 global start_program
+import pandas as pd
+from  datetime import datetime
 # creating executable
 # pyinstaller - -onefile --noconsole autoClick.py
 
@@ -24,13 +26,14 @@ def set_start_program(val):
 
 def press_button(key):
     pydirectinput.keyDown(key=key)
-    sleep(0.4)
     pydirectinput.keyUp(key=key)
 
-def auto_clicker(buff_key, attack_key, start_stop_key, buff_keys):
+def auto_clicker(buff_press_key,attack_key, start_stop_key, buff_keys):
     global start_program
     auto_click = False
     start_program = True
+    current_time=datetime.now()
+    buff_interval = current_time + pd.DateOffset(minutes=3)
     while True:
         if not start_program: return
         if keyboard.is_pressed(start_stop_key):
@@ -39,17 +42,14 @@ def auto_clicker(buff_key, attack_key, start_stop_key, buff_keys):
             auto_click = not auto_click
             # print(f"auto click = {auto_click}")
             sleep(0.5)
-        if keyboard.is_pressed(buff_key):
-            # print(f"buffing...")
+        if keyboard.is_pressed(buff_press_key):
             auto_buff(buff_keys)
         if auto_click:
-            if not keyboard.is_pressed('alt') and not keyboard.is_pressed('left') and not keyboard.is_pressed('right'):
-                pydirectinput.keyDown(attack_key)
-                th1=threading.Thread(target=press_button,args=[attack_key])
-                th1.start()
-                th1.join()
+            if not keyboard.is_pressed('left') and not keyboard.is_pressed('right') \
+            and not keyboard.is_pressed('up') and not keyboard.is_pressed('down') and not keyboard.is_pressed('alt'):
+                pydirectinput.keyDown(key=attack_key)
             else:
-                sleep(0.2)
+                pydirectinput.keyUp(key=attack_key)
         window.update()
 
 
@@ -73,8 +73,12 @@ if __name__ == '__main__':
     label_start_stop.pack()
     entry_start_stop.pack()
 
-    tk.Button(text="Start Loop", command=lambda: auto_clicker(entry_buff.get(), entry_attack.get(),
-                                                              entry_start_stop.get(), entry_buff_keys.get())).pack()
+    # tk.Button(text="Start Loop", command=lambda: auto_clicker(entry_buff.get(), entry_attack.get(),
+    #                                                           entry_start_stop.get(), entry_buff_keys.get())).pack()
+    # tk.Button(text="Cancel", command=lambda: set_start_program(False)).pack()
+
+    tk.Button(text="Start Loop", command=lambda: auto_clicker("-","a",
+                                                              "=", "c")).pack()
     tk.Button(text="Cancel", command=lambda: set_start_program(False)).pack()
 
     window.mainloop()
