@@ -11,41 +11,12 @@ import threading
  
 
 def AutoBuff():
-    pydirectinput.keyDown("shift")
-    sleep(2)
     pydirectinput.keyDown("c")
     sleep(2)
-    pydirectinput.keyDown("v")
-    sleep(2)
-    pydirectinput.keyDown("n")
-    sleep(2)
-
-def MakeCombo(side):
-    pydirectinput.keyDown("down")
-    pydirectinput.keyUp("down")
-    pydirectinput.keyDown(side)
-    pydirectinput.keyUp(side)
-    pydirectinput.keyDown("a")
-    pydirectinput.keyUp("a")
+    # pydirectinput.keyDown("v")
 
 
 
-def AutoSell():
-    pydirectinput.keyDown("enter")
-    sleep(0.5)
-    pydirectinput.keyDown("up")
-    sleep(0.5)
-    pydirectinput.keyUp("up")
-    pydirectinput.keyDown("enter")
-    sleep(0.5)
-    pydirectinput.keyDown("enter")
-    sleep(0.5)
-    pydirectinput.keyUp("enter")
-
-def press_button(key):
-    pydirectinput.keyDown(key=key)
-    sleep(0.5)
-    pydirectinput.keyUp(key=key)
 
 def fast_step(side,how_many):
     pydirectinput.keyDown(side)
@@ -56,31 +27,51 @@ def fast_step(side,how_many):
 if __name__ == '__main__':
     sleep(3)
     random_int=0
+    auto_click = False
     while True:
-        sleep(3)
-        AutoBuff()
-        AutoSell()
+        # pydirectinput.keyUp("left" if random_int % 2 == 0 else "right")
+        # sleep(2)
+        # AutoBuff()
+
         run_auto_player=True
         current_time=datetime.now()
         current_two = current_time + pd.DateOffset(minutes=3)
-        interval_side = current_time + pd.DateOffset(seconds=20)
+        interval_side = current_time + pd.DateOffset(seconds=5)
+        interval_boom = current_time + pd.DateOffset(seconds=70)
         interval_step = current_time + pd.DateOffset(seconds=3)
         while datetime.now()< current_two:
-            if datetime.now() >= interval_side:
-                random_int+=1
-                interval_side = datetime.now() + pd.DateOffset(seconds=20)
-                MakeCombo("left" if random_int % 2 == 0 else "right")
-            if datetime.now() > interval_step:
-                fast_step("left" if random_int % 2 == 0 else "right",1.3)
-                interval_step = datetime.now() + pd.DateOffset(seconds=3)
-                
+            # if  auto_click and datetime.now() >= interval_side:
+            #     random_int+=1
+            #     pydirectinput.keyDown("left" if random_int % 2 == 0 else "right")
+            #     sleep(1.7)
+            #     pydirectinput.keyUp("left" if random_int % 2 == 0 else "right")
 
-            pydirectinput.keyDown("a")
-            pydirectinput.keyUp("a")
+            #     interval_side = datetime.now() + pd.DateOffset(seconds=5)
+            # if  auto_click and datetime.now() >= interval_boom:
+                   # random_int+=1
+                # pydirectinput.keyUp("a")
+                # sleep(1)
+                # pydirectinput.keyDown("left" if random_int % 2 == 0 else "right")
+                # pydirectinput.keyUp("left" if random_int % 2 == 0 else "right")
+                # interval_kaboom = datetime.now() + pd.DateOffset(secondas=5)
+                # while datetime.now()< interval_kaboom:
+                #     pydirectinput.keyDown("f")
+                #     pydirectinput.keyUp("f")                
+                # interval_boom = datetime.now() + pd.DateOffset(seconds=70)
+   
+            if auto_click and not keyboard.is_pressed('up')  \
+                and not keyboard.is_pressed('down') \
+                and not keyboard.is_pressed('alt') \
+                and not keyboard.is_pressed('left') \
+                and not keyboard.is_pressed('right'):
+                pydirectinput.keyDown("a")
+
+           
+            else:
+                pydirectinput.keyUp("a")
+    
             if keyboard.is_pressed("="):
+                pydirectinput.keyUp("a")
                 sleep(0.5)
-                while True:
-                    if keyboard.is_pressed("="):
-                        sleep(0.5)
-                        break
-
+                auto_click = not auto_click
+            

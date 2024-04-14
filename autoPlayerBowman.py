@@ -37,18 +37,19 @@ if __name__ == '__main__':
         interval_side = current_time + pd.DateOffset(seconds=10)
         interval_step = current_time + pd.DateOffset(seconds=6)
         while datetime.now()< current_two:
-            if datetime.now() >= interval_side:
-                random_int+=1
-                interval_side = datetime.now() + pd.DateOffset(seconds=30)
-            if datetime.now() > interval_step:
-                fast_step("left" if random_int % 2 == 0 else "right",1)
-                interval_step = datetime.now() + pd.DateOffset(seconds=6)
+            # if datetime.now() >= interval_side:
+            #     random_int+=1
+            #     interval_side = datetime.now() + pd.DateOffset(seconds=30)
+            # if datetime.now() > interval_step:
+            #     fast_step("left" if random_int % 2 == 0 else "right",1)
+            #     interval_step = datetime.now() + pd.DateOffset(seconds=6)
 
-            pydirectinput.keyDown("space")
+            pydirectinput.keyDown("a")
             if keyboard.is_pressed("="):
                 sleep(0.5)
                 while True:
                     if keyboard.is_pressed("="):
                         sleep(0.5)
                         break
+
 

@@ -1,0 +1,150 @@
+3600000|[Ins] Monster Level Altering Core +3	
+3600001|[Ins] Monster Level Altering Core +4	
+3600002|[Ins] Monster Level Altering Core +5	
+3600003|[Ins] Monster Level Altering Core +7	
+3600004|[Ins] Monster Level Altering Core +9	
+3600005|[Ins] Monster Level Altering Core +10	
+3600100|[Ins] Monster HP x 1.2	
+3600101|[Ins] Monster HP x 1.5	
+3600102|[Ins] Monster HP x 5	
+3600103|[Ins] Monster HP x 10	
+3600104|[Ins] Monster HP x 20	
+3600200|[Ins] Monster Population +20%	
+3600201|[Ins] Monster Population 30%	
+3600202|[Ins] Monster Population 70%	
+3600203|[Ins] Monster Population 100%	
+3600204|[Ins] (Special Core) Monster Population +50%	
+3601000|[Ins] Monster Skin - Classic	
+3601001|[Ins] Monster Skin - Fairy	
+3601002|[Ins] Monster Skin - Ghost	
+3601003|[Ins] Monster Skin - Animal	
+3601004|[Ins] Monster Skin - Plant	
+3601005|[Ins] Monster Skin - Thieves	
+3601006|[Ins] Monster Skin - Big Size		
+3601100|[Ins] BGM - Darkness		
+3601101|[Ins] BGM - Snow Drop		
+3601102|[Ins] BGM - Dancing with the Moon		
+3601103|[Ins] BGM - Wind and Flower		
+3601104|[Ins] BGM - Dreams		
+3601105|[Ins] BGM - Cygnus
+3601106|[Ins] BGM - Rising Star		
+3601107|[Ins] BGM - Opening		
+3601200|[Ins] Map Skin - Queen's Road		
+3601201|[Ins] Map Skin - Serene Moonlight		
+3601202|[Ins] Map Skin - Elven Forest		
+3601203|[Ins] Map Skin - Desolate Moor		
+3601204|[Ins] Map Skin - Forbidden Time		
+3601205|[Ins] Map Skin - Space		
+3601206|[Ins] Map Skin - Omega Sector		
+3601207|[Ins] Map Skin - Neo City		
+3602000|[Ins] Party Bonus EXP 5%		
+3602001|[Ins] Party Bonus EXP 10%		
+3602002|[Ins] Party Bonus EXP 15%		
+3602003|[Ins] (Special Core) Party Bonus EXP +5%		
+3602100|[Ins] Monster Addition - Cloned Manon		
+3602101|[Ins] Monster Addition - Cloned Pianus		
+3602102|[Ins] Monster Addition - Cloned Griffey		
+3602103|[Ins] Monster Addition - Broken Auto Security System		
+3602104|[Ins] Monster Addition - Cloned Mikhail		
+3602105|[Ins] Monster Addition - Cloned Oz		
+3602106|[Ins] Monster Addition - Cloned Irena		
+3602107|[Ins] Monster Addition - Cloned Eckhart		
+3602108|[Ins] Monster Addition - Cloned Hawkeye		
+3603000|[Ins] Drop Rate +5%		
+3603001|[Ins] Drop Rate +10%		
+3603002|[Ins] Drop Rate +15%		
+3603003|[Ins] Drop Rate +20%		
+3603004|[Ins] Drop Rate +25%		
+3603005|[Ins] Drop Rate +30%		
+3603006|[Ins] (Special Core) Drop Rate +20%		
+3603100|[Ins] Herb Drop Rate +10%		
+3603101|[Ins] Herb Drop Rate +20%		
+3603102|[Ins] Herb Drop Rate +30%		
+3603103|[Ins] Herb Drop Rate +40%		
+3603104|[Ins] Herb Drop Rate +50%		
+3603105|[Ins] Herb Drop Rate +100%		
+3603200|[Ins] Ore Drop Rate +10%		
+3603201|[Ins] Ore Drop Rate +20%		
+3603202|[Ins] Ore Drop Rate +30%		
+3603203|[Ins] Ore Drop Rate +40%		
+3603204|[Ins] Ore Drop Rate +50%		
+3603205|[Ins] Ore Drop Rate +100%		
+3603300|[Ins] Rare Equipment Drop		
+3603400|[Ins] Herb Drop - Majoram		
+3603401|[Ins] Herb Drop - Lavender		
+3603402|[Ins] Herb Drop - Rosemary		
+3603403|[Ins] Herb Drop - Mandarin		
+3603404|[Ins] Herb Drop - Lemon Balm		
+3603405|[Ins] Herb Drop - Peppermint		
+3603406|[Ins] Herb Drop - Jasmine		
+3603407|[Ins] Herb Drop - Tea Tree		
+3603408|[Ins] Herb Drop - Chamomile		
+3603409|[Ins] Herb Drop - Patchouli 		
+3603410|[Ins] Herb Drop - Juniper Berry		
+3603411|[Ins] Herb Drop - Hyssop		
+3603500|[Ins] Ore Drop - Bronze Ore		
+3603501|[Ins] Ore Drop - Steel Ore		
+3603502|[Ins] Ore Drop - Mithril Ore		
+3603503|[Ins] Ore Drop - Adamantium Ore		
+3603504|[Ins] Ore Drop - Silver Ore		
+3603505|[Ins] Ore Drop - Orihalcon Ore		
+3603506|[Ins] Ore Drop - Gold Ore		
+3603507|[Ins] Ore Drop - Lidium Ore		
+3603508|[Ins] Ore Drop - Garnet Ore		
+3603509|[Ins] Ore Drop - Amethyst Ore		
+3603510|[Ins] Ore Drop - Aquamarine Ore		
+3603511|[Ins] Ore Drop - Emerald Ore		
+3603512|[Ins] Ore Drop - Opal Ore		
+3603513|[Ins] Ore Drop - Sapphire Ore		
+3603514|[Ins] Ore Drop - Topaz Ore		
+3603515|[Ins] Ore Drop - Diamond Ore		
+3603516|[Ins] Ore Drop - Black Crystal Ore		
+3603600|[Ins] Armor Drop - Level 100 Warrior Armor		
+3603601|[Ins] Armor Drop - Level 110 Warrior Armor		
+3603602|[Ins] Armor Drop - Level 100 Magician Armor		
+3603603|[Ins] Armor Drop - Level 110 Magician Armor		
+3603604|[Ins] Armor Drop - Level 100 Bowman Armor		
+3603605|[Ins] Armor Drop - Level 110 Bowman Armor		
+3603606|[Ins] Armor Drop - Level 100 Thief Armor		
+3603607|[Ins] Armor Drop - Level 110 Thief Armor		
+3603608|[Ins] Armor Drop - Level 100 Pirate Armor		
+3603609|[Ins] Armor Drop - Level 110 Pirate Armor		
+3603610|[Ins] Weapon Drop - Level 100 Weapon		
+3603611|[Ins] Weapon Drop - Level 105 Weapon		
+3603612|[Ins] Weapon Drop - Level 110 Weapon		
+3603613|[Ins] Weapon Drop - Level 120 Necro Weapon		
+3604000|[Ins] Mission Addition - Evolving System		
+3604001|[Ins] Mission Addition - Accelerator		
+3604002|[Ins] Mission Addition - Link 6 Connection Error		
+3604003|[Ins] Mission Addition - Link 7 Connection Error		
+3604004|[Ins] Mission Addition - Link 8 Connection Error
+3604005|[Ins] Mission Addition - Link 9 Connection Error		
+3604006|[Ins] Mission Addition - Challenge the Hard Mode!		
+3604007|[Ins] Mission Addition - Aim at Weaknesses!		
+3604009|[Ins] Mission Addition - Temporary Energy Supply	
+3604010|[Ins] Monster Addition - Reinforced Monster Model	
+3604011|[Ins] Mission - Shadow Monster	
+4310048|[Etc] 6th Anniversary Coin
+4001695|[Etc] 6th Anniversary Maple Leaf
+2431174|[Consume] Honorary Medal
+2022336|[Consume] Secret Box
+2431289|[Consume] Secret Box
+2431290|[Consume] Secret Box
+2431291|[Consume] Secret Box
+2431292|[Consume] Secret Box
+2431293|[Consume] Secret Box
+2431294|[Consume] Secret Box
+2431295|[Consume] Secret Box
+2431296|[Consume] Secret Box
+2431297|[Consume] Secret Box
+2430746|[Consume] 6th Anniversary Celebration Box
+4310060|[Etc] Evolving Coin
+4033453|[Etc] Error Code 307
+4033451|[Etc] Memory Chip
+4033452|[Etc] Error Code 306
+4033454|[Etc] Error Code 308
+4033455|[Etc] Error Code 309
+4001780|[Etc] Fortune Wheel Coupon
+4001781|[Etc] Good Fortune Wheel Coupon
+4001782|[Etc] Better Fortune Wheel Coupon
+4001783|[Etc] Rare Fortune Wheel Coupon

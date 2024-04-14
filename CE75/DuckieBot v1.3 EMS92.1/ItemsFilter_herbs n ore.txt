@@ -1,0 +1,85 @@
+4010000|[Etc] Bronze Ore
+4010001|[Etc] Steel Ore
+4010002|[Etc] Mithril Ore
+4010003|[Etc] Adamantium Ore
+4010004|[Etc] Silver Ore
+4010005|[Etc] Orihalcon Ore
+4010006|[Etc] Gold Ore
+4010007|[Etc] Lithium Ore
+4011000|[Etc] Bronze Plate
+4011001|[Etc] Steel Plate
+4011002|[Etc] Mithril Plate
+4011003|[Etc] Adamantium Plate
+4011004|[Etc] Silver Plate
+4011005|[Etc] Orihalcon Plate
+4011006|[Etc] Gold Plate
+4011008|[Etc] Lithium
+4020000|[Etc] Garnet Ore
+4020001|[Etc] Amethyst Ore
+4020002|[Etc] AquaMarine Ore
+4020003|[Etc] Emerald Ore
+4020004|[Etc] Opal Ore
+4020005|[Etc] Sapphire Ore
+4020006|[Etc] Topaz Ore
+4020007|[Etc] Diamond Ore
+4020008|[Etc] Black Crystal Ore
+4021000|[Etc] Garnet
+4021001|[Etc] Amethyst
+4021002|[Etc] AquaMarine
+4021003|[Etc] Emerald
+4021004|[Etc] Opal
+4021005|[Etc] Sapphire
+4021006|[Etc] Topaz
+4021007|[Etc] Diamond
+4021008|[Etc] Black Crystal
+4022000|[Etc] Marjoram Seed
+4022001|[Etc] Marjoram Flower
+4022002|[Etc] Lavender Seed
+4022003|[Etc] Lavender Flower
+4022004|[Etc] Rosemary Seed
+4022005|[Etc] Rosemary Flower
+4022006|[Etc] Mandarin Seed
+4022007|[Etc] Mandarin Flower
+4022008|[Etc] Lemon Balm Seed
+4022009|[Etc] Lemon Balm Flower
+4022010|[Etc] Peppermint Flower
+4022011|[Etc] Jasmine Seed
+4022012|[Etc] Jasmine Flower
+4022013|[Etc] Tea Tree Seed
+4022014|[Etc] Tea Tree Flower
+4022015|[Etc] Chamomile Seed
+4022016|[Etc] Chamomile Flower
+4022017|[Etc] Patchouli Seed
+4022018|[Etc] Patchouli Flower
+4022019|[Etc] Juniper Berry Seed
+4022020|[Etc] Juniper Berry Flower
+4022021|[Etc] Hyssop Flower
+4022023|[Etc] Herb Root
+4023000|[Etc] Marjoram Seed Oil
+4023001|[Etc] Marjoram Flower Oil
+4023002|[Etc] Lavender Seed Oil
+4023003|[Etc] Lavender Flower Oil
+4023004|[Etc] Rosemary Seed Oil
+4023005|[Etc] Rosemary Flower Oil
+4023006|[Etc] Mandarin Seed Oil
+4023007|[Etc] Mandarin Flower Oil
+4023008|[Etc] Lemon Balm Seed Oil
+4023009|[Etc] Lemon Balm Flower Oil
+4023010|[Etc] Peppermint Flower Oil
+4023011|[Etc] Jasmine Seed Oil
+4023012|[Etc] Jasmine Flower Oil
+4023013|[Etc] Tea Tree Seed Oil
+4023014|[Etc] Tea Tree Flower Oil
+4023015|[Etc] Chamomile Seed Oil
+4023016|[Etc] Chamomile Flower Oil
+4023017|[Etc] Patchouli Seed Oil
+4023018|[Etc] Patchouli Flower Oil
+4023019|[Etc] Juniper Berry Seed Oil
+4023020|[Etc] Juniper Berry Flower Oil
+4023021|[Etc] Hyssop Flower Oil
+4170039|[Etc] Magical Box
+4170041|[Etc] Chaos Box
+4170038|[Etc] Infinite Quill
+4170040|[Etc] Fairy Tear
+4170036|[Etc] Sage Quill
+4170025|[Etc] Hero's Key

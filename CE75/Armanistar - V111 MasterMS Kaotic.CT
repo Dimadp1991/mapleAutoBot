@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable MugenJinFuuTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>41</ID>
+      <Description>"Hacks"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>1</ID>
+          <Description>"Blink GM"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+00B0C5C3:
+nop
+nop
+nop
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+00B0C5C3:
+sub edi,1E
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>122</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>37</ID>
+          <Description>"Superspeed Attack (dont use on bosses/instances)"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+004866B2:
+nop
+nop
+nop
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+004866B2:
+mov [eax+04],ecx
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>38</ID>
+          <Description>"Superspeed Attack-2(Dont use on Boss/Instance maps)"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+0048AF12:
+nop
+nop
+nop
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+0048AF12:
+cmp eax,-01
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>46</ID>
+          <Description>"No Breath"</Description>
+          <LastState Value="0" RealAddress="2B31D704"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"MSK.exe"+00C02564</Address>
+          <Offsets>
+            <Offset>688</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>43</ID>
+      <Description>"Vacs - only use 1 at the same time. Also disable when changing maps"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"Vac - At Char position"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//Created by NoobHacker on Youtube; https://youtube.com/channel/UCSGLf2DSzgM7iseMybspYCQ
+//code from here to '[DISABLE]' will be used to enable the cheat
+{$lua}
+saved_left = readInteger("[MSK.exe+00C06CF0]+1C")
+saved_top = readInteger("[MSK.exe+00C06CF0]+20")
+saved_right = readInteger("[MSK.exe+00C06CF0]+24")
+saved_bottom = readInteger("[MSK.exe+00C06CF0]+34")
+
+my_x = readInteger("[MSK.exe+00C07618]+FE8")
+my_y = readInteger("[MSK.exe+00C07618]+FEC")
+
+writeInteger("[MSK.exe+00C06CF0]+1C", my_x - 15)
+writeInteger("[MSK.exe+00C06CF0]+20", my_y - 35)
+writeInteger("[MSK.exe+00C06CF0]+24", my_x + 15)
+writeInteger("[MSK.exe+00C06CF0]+34", my_y - 10)
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+{$lua}
+writeInteger("[MSK.exe+00C06CF0]+1C", saved_left)
+writeInteger("[MSK.exe+00C06CF0]+20", saved_top)
+writeInteger("[MSK.exe+00C06CF0]+24", saved_right)
+writeInteger("[MSK.exe+00C06CF0]+34", saved_bottom)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>32</ID>
+          <Description>"Vac - Top border"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//Created by NoobHacker on Youtube; https://youtube.com/channel/UCSGLf2DSzgM7iseMybspYCQ
+//code from here to '[DISABLE]' will be used to enable the cheat
+{$lua}
+saved_top = readInteger("[MSK.exe+00C06CF0]+20")
+
+my_x = readInteger("[MSK.exe+00C07618]+FE8")
+my_y = readInteger("[MSK.exe+00C07618]+FEC")
+
+writeInteger("[MSK.exe+00C06CF0]+20", my_y - 35)
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+{$lua}
+writeInteger("[MSK.exe+00C06CF0]+20", saved_top)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>31</ID>
+          <Description>"Vac - Right border"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//Created by NoobHacker on Youtube; https://youtube.com/channel/UCSGLf2DSzgM7iseMybspYCQ
+//code from here to '[DISABLE]' will be used to enable the cheat
+{$lua}
+saved_right = readInteger("[MSK.exe+00C06CF0]+24")
+
+my_x = readInteger("[MSK.exe+00C07618]+FE8")
+my_y = readInteger("[MSK.exe+00C07618]+FEC")
+
+writeInteger("[MSK.exe+00C06CF0]+24", my_x + 15)
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+{$lua}
+writeInteger("[MSK.exe+00C06CF0]+24", saved_right)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>30</ID>
+          <Description>"Vac - Left border"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//Created by NoobHacker on Youtube; https://youtube.com/channel/UCSGLf2DSzgM7iseMybspYCQ
+//code from here to '[DISABLE]' will be used to enable the cheat
+{$lua}
+saved_left = readInteger("[MSK.exe+00C06CF0]+1C")
+
+my_x = readInteger("[MSK.exe+00C07618]+FE8")
+my_y = readInteger("[MSK.exe+00C07618]+FEC")
+
+writeInteger("[MSK.exe+00C06CF0]+1C", my_x - 15)
+
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+{$lua}
+writeInteger("[MSK.exe+00C06CF0]+1C", saved_left)
+</AssemblerScript>
+          <Hotkeys>
+            <Hotkey>
+              <Action>Toggle Activation</Action>
+              <Keys>
+                <Key>189</Key>
+              </Keys>
+              <ID>0</ID>
+            </Hotkey>
+          </Hotkeys>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>42</ID>
+      <Description>"Data"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>10</ID>
+          <Description>"Char X (P)"</Description>
+          <LastState Value="4294967221" RealAddress="2AEC7E84"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"MSK.exe"+00C07618</Address>
+          <Offsets>
+            <Offset>FE8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>20</ID>
+          <Description>"Char Y (P)"</Description>
+          <LastState Value="151" RealAddress="2AEC7E88"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"MSK.exe"+00C07618</Address>
+          <Offsets>
+            <Offset>FEC</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12</ID>
+          <Description>"L Wall (P)"</Description>
+          <LastState Value="4294967206" RealAddress="15396CB0"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"MSK.exe"+00C06CF0</Address>
+          <Offsets>
+            <Offset>1C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"T Wall (P)"</Description>
+          <LastState Value="4294965891" RealAddress="15396CB4"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"MSK.exe"+00C06CF0</Address>
+          <Offsets>
+            <Offset>20</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>17</ID>
+          <Description>"R Wall (P)"</Description>
+          <LastState Value="1719" RealAddress="15396CB8"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"MSK.exe"+00C06CF0</Address>
+          <Offsets>
+            <Offset>24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19</ID>
+          <Description>"B Wall (P)"</Description>
+          <LastState Value="225" RealAddress="15396CBC"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"MSK.exe"+00C06CF0</Address>
+          <Offsets>
+            <Offset>28</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>35</ID>
+          <Description>"Map ID"</Description>
+          <LastState Value="0" RealAddress="1A5AB1D8"/>
+          <VariableType>4 Bytes</VariableType>
+          <Address>1A5AB1D8</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>

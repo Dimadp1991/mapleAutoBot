@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f34dd5cb-c5c6-431c-99bd-5461452196f2" name="Changes" comment="added gui to auto clicker">
-      <change beforePath="$PROJECT_DIR$/.vscode/symbols.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autoClick.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoClick.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoPlayerMageReBOOT.py" beforeDir="false" afterPath="$PROJECT_DIR$/autoPlayerMageReBOOT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/autoClick/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/autoClick/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/autoClick/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/autoClick/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/autoClick/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/autoClick/PKG-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/autoClick/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/autoClick/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/autoClick/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/autoClick/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/autoClick/autoClick.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/autoClick/autoClick.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/autoClick/warn-autoClick.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/autoClick/warn-autoClick.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/autoClick/xref-autoClick.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/autoClick/xref-autoClick.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/autoClick.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/autoClick.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

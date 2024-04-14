@@ -1,0 +1,3504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="38">
+  <Forms>
+    <CETrainer Class="TTrainerForm" Encoding="Ascii85">=Nvc=,cp%1$Vj9{tM/4];glST?pQcCIL;5}X.(0Qg[@1,hoqZi*j.I8#1RE)K+){)gkHh-:oxyU;.n:MDJgMI(:moE.^EsW9zI@]2u1$r;L]jBP6?CPWy]MZRI=](xaI2aYR83iHs_WEEj6Mm@_x00O]7nz]fsae#XP,On-b1wrkU2jyNL!jQRH1}HeT[RlFrf9/+S!JaS3@3XDJX}1DbNa#cSI%qwLA}]8nzhAx}!^N_*gKW98l$i6ob0T,]z0%^:9xdBo0W4w[MZ1XjGzeVV65V)q(X4PypCY;?#NG9%jwS6Rx%q#HWE6IhWKltn7ZevJx{B]R%%bg_9H1Tw;U8wHkcT^^!G2_cnYX/M0}u61x$^AUc^4ze+3/!jyP-Gpv^K[XYZHQ!tP+7,!j9@t9S5?1RT9Sd6aI[GpbSaVLv=%7LvN/}jOD]h+aWK-T7.hb*K2Dj/G-YuyvMGj5pSe{$IWOy@6MWU]LzfzZnhX-WHg*sdHO3ReFW%T0W0zH!puE=7exgn7.+LBgcj1B3g,Mw$=;IQU8l9bHeD!qFAPU*Glwt?-K[1BDU3jOut5yMN!eL)/XN*qL*FHtR$E@#4yxB@Jj_Ac=U**9??c;poj(2k8d/b6]koGe]l+OZnr/E$oK$+1FNKn3/vx7M5%8?sis,t!q;dFemlIqk:r.poNRwj.T]u.-Y{U^F,)H/{=$3]0(:U1[TE63=JL^=mHx;/gxzNIxlC!5Tu,4qC[:?OUnOkP!*!)?apkH+D9jqSBzxEE3PDP$[]_]f[[icRc,4!7s%=;+AcrqMtTl!KDUhdmG^7ADUoLFg@)P55ou8XH8r#*cZ_*.*Twxi_d:(-?9aL(@mP}](bo@+],T_Q}d^;^soNhuPQ%lGGT7E?j]%f?S=!h?S;!r/AtPwDz{IHLk3!BnqN{[](Y8R-=D.Mqpwn]I;A%OOxKJ4aNbR/!M0cQwwJMAR=){ZeO@1N/5IqW52lZqKrc/HqXzM0:!AAK[M?=Py#t$k9rl,7+15eE^y%^IvU{^D]:j1z=DeR3WCM9zU,IshU(Id#B43[QXupH=w.k.2^_?%.4p#fUa)d)Nuk_wdhHiV:=ps:WTixkh:ra</CETrainer>
+  </Forms>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>533</ID>
+      <Description>"☆Hello WAND Users☆"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>E992F8</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>0</ID>
+      <Description>"☆0.83☆"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>9BFFFF</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>553</ID>
+      <Description>"☆5/1/2022☆"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>9BFFFF</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>522</ID>
+      <Description>"☆Most scripts updated by XTEAC☆☆Most pointers found laying around☆"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>FF73B9</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>523</ID>
+      <Description>"♥Credits to all the script authors over the years♥"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>8080FF</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>455</ID>
+      <Description>"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>808040</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>452</ID>
+      <Description>"Pointers"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>C08000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>451</ID>
+          <Description>"Left Wall"</Description>
+          <LastState Value="-588" RealAddress="2BA2C5B8"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BEBFA0</Address>
+          <Offsets>
+            <Offset>24</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>450</ID>
+          <Description>"Right Wall"</Description>
+          <LastState Value="1398" RealAddress="2BA2C5C0"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BEBFA0</Address>
+          <Offsets>
+            <Offset>2c</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>454</ID>
+          <Description>"Top Wall"</Description>
+          <LastState Value="-825" RealAddress="2BA2C5BC"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BEBFA0</Address>
+          <Offsets>
+            <Offset>28</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>453</ID>
+          <Description>"Bottom Wall"</Description>
+          <LastState Value="2560" RealAddress="2BA2C5C4"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BEBFA0</Address>
+          <Offsets>
+            <Offset>30</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>28</ID>
+          <Description>"Char Pointer"</Description>
+          <LastState Value="0" RealAddress="32CA5B90"/>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BEBF98</Address>
+          <Offsets>
+            <Offset>56C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>557</ID>
+          <Description>"Death X"</Description>
+          <LastState Value="0" RealAddress="32CA75C8"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BEBF98</Address>
+          <Offsets>
+            <Offset>1FA4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>558</ID>
+          <Description>"Death Y"</Description>
+          <LastState Value="0" RealAddress="32CA75CC"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BEBF98</Address>
+          <Offsets>
+            <Offset>1FA8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>447</ID>
+          <Description>"Char X"</Description>
+          <LastState Value="-329" RealAddress="32CA6790"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BEBF98</Address>
+          <Offsets>
+            <Offset>116C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>448</ID>
+          <Description>"Char Y"</Description>
+          <LastState Value="4294967251" RealAddress="32CA6794"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BEBF98</Address>
+          <Offsets>
+            <Offset>1170</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>480</ID>
+          <Description>"Char PlatID / FH"</Description>
+          <LastState Value="785860092" RealAddress="316BCF1C"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BEBF98</Address>
+          <Offsets>
+            <Offset>104</Offset>
+            <Offset>11a4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>507</ID>
+          <Description>"Char pID"</Description>
+          <LastState Value="829148696" RealAddress="32CA67C8"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BEBF98</Address>
+          <Offsets>
+            <Offset>11a4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>133</ID>
+          <Description>"Map ID"</Description>
+          <LastState Value="105040305" RealAddress="31A28204"/>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BED788</Address>
+          <Offsets>
+            <Offset>00000668</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>74</ID>
+          <Description>"Mouse X"</Description>
+          <LastState Value="-342" RealAddress="201454C0"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BEC33C</Address>
+          <Offsets>
+            <Offset>84</Offset>
+            <Offset>978</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>73</ID>
+          <Description>"Mouse Y"</Description>
+          <LastState Value="166" RealAddress="201454C4"/>
+          <ShowAsSigned>1</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BEC33C</Address>
+          <Offsets>
+            <Offset>88</Offset>
+            <Offset>978</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>128</ID>
+          <Description>"Mob Count"</Description>
+          <LastState Value="19" RealAddress="31B5E054"/>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>bebfa4</Address>
+          <Offsets>
+            <Offset>10</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4</ID>
+          <Description>"Total Buff Count"</Description>
+          <LastState Value="0" RealAddress="00BF4AD4"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>BF4AD4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>560</ID>
+          <Description>"Server ID [0: Scania 1: Bera 2: Broa 3: Windia 4: Khaini 5: Bellocan 6: Mardia 7: Kradia 8: Yellonde  9: Demethos]"</Description>
+          <LastState Value="0" RealAddress="00BF3C74"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BE7918</Address>
+          <Offsets>
+            <Offset>2054</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>486</ID>
+      <Description>"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>808040</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>552</ID>
+      <Description>"Map Effects"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>C08000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>22</ID>
+          <Description>"Gravity"</Description>
+          <LastState Value="1" RealAddress="00AF0DE0"/>
+          <Color>FF8080</Color>
+          <VariableType>Double</VariableType>
+          <Address>00AF0DE0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>25</ID>
+          <Description>"Max Walk + Jump Speed"</Description>
+          <LastState Value="0.001" RealAddress="00AF0E10"/>
+          <Color>FF8080</Color>
+          <VariableType>Double</VariableType>
+          <Address>00AF0E10</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>551</ID>
+      <Description>"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>808040</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>456</ID>
+      <Description>"Stats / Functions"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>C08000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>55</ID>
+          <Description>"Capture User/Pass [Activate before logging in]"</Description>
+          <LastState/>
+          <Color>575C23</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+alloc(GetUP,64)
+alloc(user,12)
+alloc(pass,12)
+registersymbol(user)
+registersymbol(pass)
+label(GetUPret)
+
+00620FD9:
+jmp GetUP
+GetUPret:
+
+GetUP:
+mov ebx,[eax]
+mov [user],ebx
+mov ebx,[eax+04]
+mov [user+04],ebx
+mov ebx,[eax+08]
+mov [user+08],ebx
+mov ebx,[edi]
+mov [pass],ebx
+mov ebx,[edi+04]
+mov [pass+04],ebx
+mov ebx,[edi+08]
+mov [pass+08],ebx
+call 005F6952//Original Op
+jmp GetUPret
+
+[disable]
+00620FD9://E8 ? ? ? FF 8B F8 8B 45 08 3B C3 C6 45 FC 04 74 ? 83 C0
+db e8 df 48 fd ff
+dealloc(GetUP)
+dealloc(user)
+dealloc(pass)
+unregistersymbol(user)
+unregistersymbol(pass)
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>57</ID>
+              <Description>"Username"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>String</VariableType>
+              <Length>12</Length>
+              <Unicode>0</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>user</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>58</ID>
+              <Description>"Password"</Description>
+              <Color>FF8080</Color>
+              <VariableType>String</VariableType>
+              <Length>12</Length>
+              <Unicode>0</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>pass</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>48</ID>
+          <Description>"Stat Hook [Change character state for them to appear]"</Description>
+          <LastState/>
+          <Color>575C23</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[Enable]
+alloc(stats,70)
+alloc(vals,24)
+label(statsret)
+registersymbol(vals)
+
+008D8247://e8 ? ? ? ? 8b 4d ? e8 ? ? ? ? 85 c0 75 ? 8b 4d ? e8 ? ? ? ? 8b
+call stats
+statsret:
+
+stats:
+mov eax,[esp+04]
+mov [vals],eax
+mov eax,[esp+08]
+mov [vals+04],eax
+mov eax,[esp+0C]
+mov [vals+08],eax
+mov eax,[esp+10]
+mov [vals+0c],eax
+mov eax,[esp+14]
+mov [vals+10],eax
+mov eax,[esp+18]
+mov [vals+14],eax
+jmp statsret+2bf
+
+[Disable]
+008D8247:
+db e8 bf 02 00 00
+dealloc(stats)
+dealloc(vals)
+unregistersymbol(vals)
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>457</ID>
+              <Description>"Current HP"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>vals</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>458</ID>
+              <Description>"Max HP"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>vals+4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>51</ID>
+              <Description>"Current MP"</Description>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>vals+08</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>52</ID>
+              <Description>"Maximum MP"</Description>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>vals+0c</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>53</ID>
+              <Description>"Current EXP"</Description>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>vals+10</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>54</ID>
+              <Description>"Maximum EXP"</Description>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>vals+14</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>487</ID>
+      <Description>"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>808040</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>464</ID>
+      <Description>"Mob Effects"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>C08000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>481</ID>
+          <Description>"Everything jumps [Mobs and you]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+alloc(newmem,64)
+label(retnewmem)
+label(end)
+
+newmem:
+cmp edi,0
+//cmp ebp,0013ee60
+je end
+cmp [ebx+00000158],0
+je 009B19F9
+
+end:
+call 009B2202
+jmp retnewmem
+
+//74 05 e8 ?? ?? ?? ?? 39 b3 ?? ?? ?? ??
+//8b cb e8 ?? ?? ?? ?? 39 b3 ?? ?? ?? ?? 0f 84
+009B19F2:
+jmp newmem
+nop
+nop
+retnewmem:
+
+[disable]
+009B19F2:
+je 009B19F9
+call 009B2202
+
+dealloc(newmem)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>563</ID>
+          <Description>"Force All Mobs -&gt; Flying [Enable then cc/renter map]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{ Game   : Maplestory.exe
+  Version: 
+  Date   : 2022-01-05
+  Author : Administrator
+
+  This script does blah blah blah
+}
+
+[ENABLE]
+
+aobscanmodule(ForceWalk,Maplestory.exe,0C 89 86 48 02 00 00) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov eax,#3 //forces all mobs into flying
+code:
+  mov [esi+00000248],eax
+  jmp return
+
+ForceWalk+01:
+  jmp newmem
+  nop
+return:
+registersymbol(ForceWalk)
+
+[DISABLE]
+
+ForceWalk+01:
+  db 89 86 48 02 00 00
+
+unregistersymbol(ForceWalk)
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: Maplestory.exe+5BBD29
+
+Maplestory.exe+5BBD0D: 8B C6                 - mov eax,esi
+Maplestory.exe+5BBD0F: 5E                    - pop esi
+Maplestory.exe+5BBD10: 64 89 0D 00 00 00 00  - mov fs:[00000000],ecx
+Maplestory.exe+5BBD17: C9                    - leave 
+Maplestory.exe+5BBD18: C3                    - ret 
+Maplestory.exe+5BBD19: 56                    - push esi
+Maplestory.exe+5BBD1A: FF 74 24 08           - push [esp+08]
+Maplestory.exe+5BBD1E: 8B F1                 - mov esi,ecx
+Maplestory.exe+5BBD20: E8 63 55 FF FF        - call Maplestory.exe+5B1288
+Maplestory.exe+5BBD25: 8B 44 24 0C           - mov eax,[esp+0C]
+// ---------- INJECTING HERE ----------
+Maplestory.exe+5BBD29: 89 86 48 02 00 00     - mov [esi+00000248],eax
+// ---------- DONE INJECTING  ----------
+Maplestory.exe+5BBD2F: 8B 44 24 10           - mov eax,[esp+10]
+Maplestory.exe+5BBD33: 89 86 4C 02 00 00     - mov [esi+0000024C],eax
+Maplestory.exe+5BBD39: 5E                    - pop esi
+Maplestory.exe+5BBD3A: C2 0C 00              - ret 000C
+Maplestory.exe+5BBD3D: 55                    - push ebp
+Maplestory.exe+5BBD3E: 8B EC                 - mov ebp,esp
+Maplestory.exe+5BBD40: 56                    - push esi
+Maplestory.exe+5BBD41: FF 75 20              - push [ebp+20]
+Maplestory.exe+5BBD44: 8B F1                 - mov esi,ecx
+Maplestory.exe+5BBD46: FF 75 1C              - push [ebp+1C]
+}
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>564</ID>
+          <Description>"Force All Mobs -&gt; Jumping [Enable then cc/renter map]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{ Game   : Maplestory.exe
+  Version: 
+  Date   : 2022-01-05
+  Author : Administrator
+
+  This script does blah blah blah
+}
+
+[ENABLE]
+
+aobscanmodule(ForceWalk,Maplestory.exe,0C 89 86 48 02 00 00) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov eax,#2 //forces all mobs into jumping
+code:
+  mov [esi+00000248],eax
+  jmp return
+
+ForceWalk+01:
+  jmp newmem
+  nop
+return:
+registersymbol(ForceWalk)
+
+[DISABLE]
+
+ForceWalk+01:
+  db 89 86 48 02 00 00
+
+unregistersymbol(ForceWalk)
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: Maplestory.exe+5BBD29
+
+Maplestory.exe+5BBD0D: 8B C6                 - mov eax,esi
+Maplestory.exe+5BBD0F: 5E                    - pop esi
+Maplestory.exe+5BBD10: 64 89 0D 00 00 00 00  - mov fs:[00000000],ecx
+Maplestory.exe+5BBD17: C9                    - leave 
+Maplestory.exe+5BBD18: C3                    - ret 
+Maplestory.exe+5BBD19: 56                    - push esi
+Maplestory.exe+5BBD1A: FF 74 24 08           - push [esp+08]
+Maplestory.exe+5BBD1E: 8B F1                 - mov esi,ecx
+Maplestory.exe+5BBD20: E8 63 55 FF FF        - call Maplestory.exe+5B1288
+Maplestory.exe+5BBD25: 8B 44 24 0C           - mov eax,[esp+0C]
+// ---------- INJECTING HERE ----------
+Maplestory.exe+5BBD29: 89 86 48 02 00 00     - mov [esi+00000248],eax
+// ---------- DONE INJECTING  ----------
+Maplestory.exe+5BBD2F: 8B 44 24 10           - mov eax,[esp+10]
+Maplestory.exe+5BBD33: 89 86 4C 02 00 00     - mov [esi+0000024C],eax
+Maplestory.exe+5BBD39: 5E                    - pop esi
+Maplestory.exe+5BBD3A: C2 0C 00              - ret 000C
+Maplestory.exe+5BBD3D: 55                    - push ebp
+Maplestory.exe+5BBD3E: 8B EC                 - mov ebp,esp
+Maplestory.exe+5BBD40: 56                    - push esi
+Maplestory.exe+5BBD41: FF 75 20              - push [ebp+20]
+Maplestory.exe+5BBD44: 8B F1                 - mov esi,ecx
+Maplestory.exe+5BBD46: FF 75 1C              - push [ebp+1C]
+}
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>562</ID>
+          <Description>"Force All Mobs -&gt; Walking [Enable then cc/renter map]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{ Game   : Maplestory.exe
+  Version: 
+  Date   : 2022-01-05
+  Author : Administrator
+
+  This script does blah blah blah
+}
+
+[ENABLE]
+
+aobscanmodule(ForceWalk,Maplestory.exe,0C 89 86 48 02 00 00) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov eax,#1 //forces all mobs into walking
+code:
+  mov [esi+00000248],eax
+  jmp return
+
+ForceWalk+01:
+  jmp newmem
+  nop
+return:
+registersymbol(ForceWalk)
+
+[DISABLE]
+
+ForceWalk+01:
+  db 89 86 48 02 00 00
+
+unregistersymbol(ForceWalk)
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: Maplestory.exe+5BBD29
+
+Maplestory.exe+5BBD0D: 8B C6                 - mov eax,esi
+Maplestory.exe+5BBD0F: 5E                    - pop esi
+Maplestory.exe+5BBD10: 64 89 0D 00 00 00 00  - mov fs:[00000000],ecx
+Maplestory.exe+5BBD17: C9                    - leave 
+Maplestory.exe+5BBD18: C3                    - ret 
+Maplestory.exe+5BBD19: 56                    - push esi
+Maplestory.exe+5BBD1A: FF 74 24 08           - push [esp+08]
+Maplestory.exe+5BBD1E: 8B F1                 - mov esi,ecx
+Maplestory.exe+5BBD20: E8 63 55 FF FF        - call Maplestory.exe+5B1288
+Maplestory.exe+5BBD25: 8B 44 24 0C           - mov eax,[esp+0C]
+// ---------- INJECTING HERE ----------
+Maplestory.exe+5BBD29: 89 86 48 02 00 00     - mov [esi+00000248],eax
+// ---------- DONE INJECTING  ----------
+Maplestory.exe+5BBD2F: 8B 44 24 10           - mov eax,[esp+10]
+Maplestory.exe+5BBD33: 89 86 4C 02 00 00     - mov [esi+0000024C],eax
+Maplestory.exe+5BBD39: 5E                    - pop esi
+Maplestory.exe+5BBD3A: C2 0C 00              - ret 000C
+Maplestory.exe+5BBD3D: 55                    - push ebp
+Maplestory.exe+5BBD3E: 8B EC                 - mov ebp,esp
+Maplestory.exe+5BBD40: 56                    - push esi
+Maplestory.exe+5BBD41: FF 75 20              - push [ebp+20]
+Maplestory.exe+5BBD44: 8B F1                 - mov esi,ecx
+Maplestory.exe+5BBD46: FF 75 1C              - push [ebp+1C]
+}
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>475</ID>
+          <Description>"Lemmings [Mobs can fall off platforms]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[Enable]
+009BDD04:
+je 009BDE0A
+
+[Disable]
+009BDD04:
+jne 009BDE0A  //0F 85 00 01 00 00 DD 45 E8 8B 8B ? ? 00 00 DC 1D ? ? ? ? DF E0 9E
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>516</ID>
+          <Description>"Make mobs fly [Combine with lemmings]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+009BE250:
+je 009BE3B8
+
+[disable]
+009BE250:
+jne 009BE3B8
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>517</ID>
+          <Description>"Make mobs/char float"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+009B2BF7:
+db d9 45 A4
+[disable]
+009B2BF7:
+db dd 45 0c
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>11</ID>
+          <Description>"Mob Speed Up"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>//Created by Cam1596
+[enable]
+009B21A0:
+db 8D 4E 0C
+[disable]
+009B21A0://8D 48 ? E8 ? ? ? FF DD 5D ? 8D 4E ? E8 ? ? ? FF DC
+db 8D 48 24
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>479</ID>
+          <Description>"Mobs can't jump [You can]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+alloc(MobNoJump,100)
+alloc(Plat,8)
+label(CharPlat)
+label(MobNoJumpRet)
+
+009B1E4E:
+jmp MobNoJump
+db 90
+MobNoJumpRet:
+
+MobNoJump:
+call CharPlat
+mov eax,[esi+110]
+mov [ebp-10],eax
+cmp [Plat],0
+je 009B204B
+cmp [Plat],eax
+je MobNoJumpRet
+jmp 009B204B
+
+CharPlat:
+mov eax,[00BEBF98]
+mov eax,[eax+11a4]
+mov eax,[eax+104]
+mov [Plat],eax
+ret
+
+[disable]
+009B1E4E:
+db 8b 86 10 01 00 00
+dealloc(MobNoJump)
+dealloc(Plat)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>565</ID>
+          <Description>"GridLock [CF X X]"</Description>
+          <LastState Value="13207311" RealAddress="009B4293"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>009B4293</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>488</ID>
+      <Description>"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>808040</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>465</ID>
+      <Description>"GodModes"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>C08000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>302</ID>
+          <Description>"MyGod"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(MyGod,64)
+
+registersymbol(MyGod)
+
+
+009591CA: //39 5D 0C 75 05 39 5D 10 74 27 8B 45 F0 DB 45 10
+jmp MyGod
+nop
+
+MyGod:
+pushad
+
+mov [ebp+c],5
+mov [ebp+8],20 //mod
+mov [ebp+10],0
+popad
+cmp [ebp+0c],ebx
+jne 009591D4
+jmp 009591FB
+
+[disable]
+009591CA:
+cmp [ebp+0c], ebx
+jne 009591D4
+cmp [ebp+10],ebx
+
+dealloc(MyGod)
+unregistersymbol(MyGod)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>476</ID>
+          <Description>"Block Damage"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+009593F1:
+db 0f 85
+[disable]
+009593F1://0F 84 ? ? 00 00 6A ? 8D 4D ? E8 ? ? ? FF C6 45 ? ? E8
+db 0f 84
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>12</ID>
+          <Description>"7Miss Godmode"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+alloc(7Miss,60)
+label(7MissRet)
+
+009591CA:
+jmp 7Miss
+7MissRet:
+
+7Miss:
+mov [ebp+10],00//No KB
+inc [7Miss+32]
+cmp dword ptr [7Miss+32],07//Miss Amount
+jg 7Miss+22
+mov [ebp+08],00//Dmg
+jmp 7MissRet
+7Miss+22:
+mov [7Miss+32],00
+jmp 7MissRet
+
+[disable]
+009591CA://39 5D 0C 75 ? 39 5D 10 74 ? 8B 45
+db 39 5D 0C 75 05
+dealloc(7Miss)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"Long Blink Godmode"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+00932503:
+db 01
+[disable]
+00932503:   //1E 57 8D 8B ? ? ? ? E8 ? ? ? FF 3B FE 7D ? 56 8D
+db 1e
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19</ID>
+          <Description>"Full Godmode"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+009581D5://0F 85 ? ? 00 00 8B 86 ?? ?? ?? ?? 83 E0 FE 83 F8 12 0F 84 ? ? 00 00
+db 0f 84
+[disable]
+009581D5:
+db 0f 85
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>415</ID>
+          <Description>"Revive on same map"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>//you can also send the heal over time packet to revive on the same map
+// updated 0.83
+[ENABLE]
+alloc(RevivePls,256)
+alloc(CallHeal,256)
+alloc(pushval,14)
+label(IsDead)
+label(RevivePlsRet)
+label(CallHealRet)
+
+005303BB://50 8D 4D ? E8 ? ? ? FF FF 75 ? 8D 4D ? E8 ? ? ? FF //
+jmp RevivePls
+db 90 90 90 90
+RevivePlsRet:
+
+RevivePls:
+mov ebx,[00BEBF98]
+cmp [ebx+570],#18
+je IsDead
+cmp [ebx+570],#19
+je IsDead
+push eax
+lea ecx,[ebp-1c]
+call 0046C00C
+jmp RevivePlsRet
+
+IsDead:
+mov [pushval],eax
+inc [pushval]
+push [pushval]
+lea ecx,[ebp-1c]
+call 0046C00C
+jmp RevivePlsRet
+
+00530480://89 BE ? ? ? ? E8 ? ? ? ? 83 4D ? FF 8D 4D ? 89 86
+jmp CallHeal
+db 90
+CallHealRet:
+
+CallHeal:
+push 00
+mov ecx,[00B06818]
+push 0A
+call 00A1E997//E8 ? ? ? 00 8B ? ? 53 E8 ? ? ? FF EB ? 83 ? ? 00 8D ? ? ? 00
+jmp CallHealRet
+
+[DISABLE]
+005303BB:
+push eax
+lea ecx,[ebp-1c]
+call 00406549
+00530480:
+mov [esi+000020a4],edi
+dealloc(RevivePls)
+dealloc(CallHeal)
+dealloc(pushval)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>460</ID>
+          <Description>"Anti-Death"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+009506C6:
+db eb
+[disable]
+009506C6://74 0B 8B 45 10 83 E0 01 83 C8 12 EB
+db 74
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>489</ID>
+      <Description>"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>808040</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>466</ID>
+      <Description>"Vacs"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>C08000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>38</ID>
+          <Description>"Pet Item Vac [Unsafe on some servers?]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[Enable]
+RegisterSymbol(PetGetItem)
+RegisterSymbol(PetGetItemSwitch)
+Alloc(PetGetItem, 256)
+Alloc(PetGetItemSwitch, 4)
+Label(NormalPet)
+ 
+PetGetItemSwitch:
+DD 1
+ 
+PetGetItem:
+CMP [PetGetItemSwitch], 0
+JE NormalPet
+PUSH EBX
+MOV EBX,[EBP+0C]
+MOV [EBX],EDI
+MOV [EBX+04],EAX //+20
+POP EBX
+JMP 005049D6
+ 
+NormalPet: //004E9BD
+LEA EAX, [EBP-34]
+PUSH EAX
+CALL DWORD PTR [00BF0484]
+JMP 005049C7
+ 
+005049B6:
+JMP PetGetItem
+ 
+[Disable]
+005049B6:
+LEA EAX, [EBP-34]
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>474</ID>
+          <Description>"Jumping vac right [combine with jumping mobs]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+009B46A1: //76 ? DD ? ? 8B CE 51 51 DD 1C 24 E8 ? ? ? ? 8D 4E ? D9 EE 51 51 DD 1C 24
+JA 009B4715
+
+[disable]
+009B46A1:  //76 ? DD ? ? 8B CE 51 51 DD 1C 24 E8 ? ? ? ? 8D 4E ? D9 EE 51 51 DD 1C 24
+JNA 009B4715 //ORIGINAL OPCODE
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>500</ID>
+          <Description>"Slow Vac Left"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+009B2C32://73 ? DD 19 5D C3 DD D8 5D C3 55 8B EC 83 EC ? 53 56
+JNA 009B2C38
+
+[disable]
+009B2C32: ////73 ? DD 19 5D C3 DD D8 5D C3 55 8B EC 83 EC ? 53 56
+JAE 009B2C38 //ORIGINAL OPCODE
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>501</ID>
+          <Description>"Force vac right [mobs and player can only move right]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+009B2C1E://73 ? DD 45 ? DC 75 ? DC 4D ? DC 01 DD 11 D8 D9 DF E0 9E 73 ? DD 19 5D
+JNA 009B2C38
+
+[disable]
+009B2C1E: //73 ? DD 45 ? DC 75 ? DC 4D ? DC 01 DD 11 D8 D9 DF E0 9E 73 ? DD 19 5D
+JAE  009B2C38
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>20</ID>
+          <Description>"Forceful Vac [Mobs move to left and right corners of map, combine with mob speedup]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+alloc(Forceful,126)
+
+009BDCFB://Mainz0r
+jmp Forceful
+db 90
+
+Forceful:
+mov eax,0
+mov [ebx+00000248],eax
+jmp 009BDE0A
+
+[disable]
+009BDCFB://Mainz0r
+db 8b 83 48 02 00 00
+dealloc(Forceful)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>499</ID>
+          <Description>"Dragon Vac [mobs vacced left, enable all mobs jump for better]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+00668589: //74 ? FF 36 8D 83 ? ? ? ? 50 E8 ? ? ? ? 83 F8 ? 59 59 75 ? 57
+jne 006685A0
+
+0066859E: //75 ? 57 57 57 57 57 57 57 6A FF
+je 006685B1
+
+00AF0DF8: //00 00 00 00 00 00 00 00 68 ? ? ? ? DF ? ? ? ? ? D2 4D ? 50 3F
+dd 1
+
+009B4632: //73 ? DD ? ? 8B CE 51 51 DD 1C 24 E8 ? ? ? ? 8D 4E ? D9 EE 51 51 DD 1C 24
+jb 009B4687
+
+[disable]
+00668589: //74 ? FF 36 8D 83 ? ? ? ? 50 E8 ? ? ? ? 83 F8 ? 59 59 75 ? 57
+je 006685A0
+
+0066859E: //75 ? 57 57 57 57 57 57 57 6A FF
+jne 006685B1
+
+00AF0DF8:  //00 00 00 00 00 00 00 00 68 ? ? ? ? DF ? ? ? ? ? D2 4D ? 50 3F
+dd 0
+
+009B4632: //73 ? DD ? ? 8B CE 51 51 DD 1C 24 E8 ? ? ? ? 8D 4E ? D9 EE 51 51 DD 1C 24
+jae 009B4687
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>69</ID>
+          <Description>"Pvac [crappy version]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[Enable]
+alloc(PrevNext,100)
+alloc(Opshuns,4)
+registersymbol(Opshuns)
+label(PrevVac)
+label(NextVac)
+label(PrevNextRet)
+
+009B240A://53 56 8b ? 8b ? ? ? ? ? 8b ? ? 8b ? ? ? ? ? 57//3rd addy   below result.
+jmp PrevNext
+db 90
+PrevNextRet:
+
+PrevNext:
+mov eax,[esi+110]
+cmp [Opshuns],1
+je PrevVac
+cmp [Opshuns],2
+je NextVac
+jmp PrevNextRet
+
+PrevVac:
+mov [eax+4c],00
+jmp PrevNextRet
+
+NextVac:
+mov [eax+50],00
+jmp PrevNextRet
+
+[disable]
+009B240A:
+db 8B 86 10 01 00 00
+dealloc(PrevNext)
+dealloc(Opshuns)
+unregistersymbol(Opshuns)
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>70</ID>
+              <Description>"Set value 1 for left || Set 2 for Right"</Description>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>opshuns</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>544</ID>
+          <Description>"PerVac"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+alloc(DeletePlatform,128)
+alloc(DeleteId,54)
+alloc(Normal,54)
+alloc(perX,200)
+alloc(perY,200)
+label(returnx)
+label(returny)
+label(ret)
+
+006BB687: //006BB687
+jmp DeletePlatform
+nop
+ret:
+
+DeletePlatform:
+pushad
+mov edx,[BEBFA0]
+mov edx,[edx+11a4]
+sub edx,0C
+cmp esi, edx
+popad
+jne DeleteId
+jmp Normal
+
+DeleteId:
+mov [esi+110], 00
+jmp ret
+
+Normal:
+mov [esi+110], edi
+jmp ret
+
+perX:
+// original opcodes
+mov eax,[edi+0c]
+push ebx
+mov esi,ecx
+
+push eax
+mov eax,[BEBFA0]
+mov eax,[eax+116C]
+sub eax,1E
+mov [edi+0c],eax
+pop eax
+jmp returnx
+
+perY:
+// original opcodes
+push [ebx+10]
+mov eax,[edi+0c]
+
+push eax
+mov eax,[BEBFA0]
+mov eax,[eax+1170]
+mov [edi+0c],eax
+pop eax
+jmp returny
+
+009B1655: //1// 8B 47 0C 53 8B F1 89 45 0C E8 D5
+jmp perX
+nop
+returnx:
+
+009B167A: //009B167A//2// FF 73 10 8B 47 10 53 89 45 0C E8 72 58 E9 FF DD
+jmp perY
+nop
+returny:
+
+[disable]
+
+009B1655: //8B 47 0C 53 8B F1 89 45 0C E8 98 58 E9 FF DD 47
+mov eax,[edi+0c]
+push ebx
+mov esi,ecx
+
+009B167A: //FF 73 10 8B 47 10 53 89 45 0C E8 72 58 E9 FF DD
+push [ebx+10]
+mov eax,[edi+10]
+
+
+
+009B49C9: //3 //89 BE 10 01 00 00 E8 A5 01 00 00 FF B6 64 01 00
+mov [esi+00000110],edi
+call 009B4B79
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>542</ID>
+          <Description>"Delayed Dupex"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>//[code]
+//Delay DupeX (DDX) by FusionFire5
+//Version 2.0 for v41. updated by Bizarro
+//DupeXSwitch Settings
+//DXS = 0 No Vac
+//DXS &gt; 0 DupeXMonster
+//DXS &lt; 0 DupeXCharacter
+[Enable]
+alloc(DupeX, 256)
+alloc(CharESI, 4)
+alloc(CharPID, 4)
+alloc(PreviousESI, 4)
+alloc(DupeXSwitch, 4)
+registerSymbol(DupeXSwitch)
+label(NoVac)
+label(DupeXVac)
+label(LoadChar)
+label(RefreshPID)
+label(EndLoadChar)
+label(LoadESI)
+label(LoadPID)
+label(EndLoadPID)
+label(DelayDupeX)
+label(EndDDX)
+label(LoadPrevious)
+label(NormalDupeX)
+label(EndDupeX)
+
+CharESI:
+dd 00000000
+CharPID:
+dd 00000000
+PreviousESI:
+dd 00000000
+DupeXSwitch:
+dd 00000000
+
+DupeX:
+push eax
+xor eax, eax
+cmp eax, [DupeXSwitch]
+je NoVac
+jmp DupeXVac
+
+NoVac:
+mov [CharESI], eax
+mov [CharPID], eax
+mov [PreviousESI], eax
+jmp NormalDupeX
+
+DupeXVac:
+call LoadChar
+call DelayDupeX
+cmp [CharESI], esi
+je NormalDupeX
+call LoadPrevious
+jmp NormalDupeX
+
+LoadChar:
+call LoadESI
+cmp eax, [CharPID]
+je RefreshPID
+cmp [DupeXSwitch], eax
+jl RefreshPID
+jmp EndLoadChar
+RefreshPID:
+call LoadPID
+EndLoadChar:
+ret
+
+LoadESI:
+push eax
+mov eax,[00BEBF98]
+//mov eax,[eax+8]
+mov eax,[eax+11A4]
+sub eax, C
+mov [CharESI], eax
+pop eax
+ret
+
+LoadPID:
+push ebx
+mov ebx, [CharESI]
+mov ebx, [ebx+110]
+cmp eax, ebx
+je EndLoadPID
+mov [CharPID], ebx
+EndLoadPID:
+pop ebx
+ret
+
+DelayDupeX:
+push esi
+mov esi, [PreviousESI]
+test esi, esi
+je EndDDX
+mov eax, [CharPID]
+mov [esi+110],eax
+mov [esi+114],eax
+EndDDX:
+pop esi
+ret
+
+LoadPrevious:
+mov [PreviousESI], esi
+ret
+
+NormalDupeX:
+pop eax
+mov [esi+114], edi
+jmp EndDupeX
+
+009B495D:
+jmp DupeX
+nop
+EndDupeX:
+
+[Disable]
+dealloc(DupeX)
+dealloc(CharESI)
+dealloc(CharPID)
+dealloc(PreviousESI)
+dealloc(DupeXSwitch)
+unregisterSymbol(DupeXSwitch)
+009B495D:
+mov [esi+00000114],edi
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>543</ID>
+              <Description>"Dupex Switch [ 0 = OFF / &gt;0 = Don't Follow / &lt;0 = Follow Me ]"</Description>
+              <ShowAsSigned>1</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>DupeXSwitch</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>506</ID>
+              <Description>"YoYoDupeX [Mobs Follow]"</Description>
+              <LastState/>
+              <Color>FF8080</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[Enable]
+alloc(dEMI, 1024)
+alloc(RunFlag, 4)
+alloc(ESIValue, 4)
+alloc(EDIValue, 4)
+label(DupeXVac)
+label(DoNormal)
+
+
+dEMI:
+push eax
+cmp [RunFlag], 2
+je DupeXVac
+mov eax, [00BEBF98]
+add eax, 11A4
+mov eax, [eax]
+sub eax, c
+mov [ESIValue],eax
+mov eax,[eax+114]
+mov [EDIValue],eax
+inc [RunFlag]
+inc [RunFlag]
+
+DupeXVac:
+cmp esi,[ESIValue]
+je DoNormal
+mov edi,[EDIValue]
+
+DoNormal:
+mov [EDIValue],edi
+pop eax
+jmp 009B495D+6
+
+RunFlag:
+db 00
+db 00
+db 00
+db 00
+
+ESIValue:
+db 00
+db 00
+db 00
+db 00
+
+EDIValue:
+db 00
+db 00
+db 00
+db 00
+
+009B495D:
+jmp dEMI
+nop
+
+[Disable]
+dealloc(dEMI)
+dealloc(RunFlag)
+dealloc(ESIValue)
+dealloc(EDIValue)
+009B495D:
+mov [esi+00000114],edi
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>508</ID>
+          <Description>"YoYoDupeX [Mobs Stay]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[Enable]
+alloc(dEMI, 1024)
+alloc(RunFlag, 4)
+alloc(ESIValue, 4)
+alloc(EDIValue, 4)
+label(DupeXVac)
+label(DoNormal)
+
+
+dEMI:
+push eax
+cmp [RunFlag], 1
+je DupeXVac
+mov eax, [00BEBF98]
+add eax, 11A4
+mov eax, [eax]
+sub eax, c
+mov [ESIValue],eax
+mov eax,[eax+114]
+mov [EDIValue],eax
+inc [RunFlag]
+inc [RunFlag]
+
+DupeXVac:
+cmp esi,[ESIValue]
+je DoNormal
+mov edi,[EDIValue]
+
+DoNormal:
+mov [EDIValue],edi
+pop eax
+jmp 009B495D+6
+
+RunFlag:
+db 00
+db 00
+db 00
+db 00
+
+ESIValue:
+db 00
+db 00
+db 00
+db 00
+
+EDIValue:
+db 00
+db 00
+db 00
+db 00
+
+009B495D:
+jmp dEMI
+nop
+
+[Disable]
+dealloc(dEMI)
+dealloc(RunFlag)
+dealloc(ESIValue)
+dealloc(EDIValue)
+009B495D:
+mov [esi+00000114],edi
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>482</ID>
+          <Description>"DupeX"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+registersymbol(EIP)
+registersymbol(DXListOffset)
+registersymbol(DXType)
+
+alloc(EIP, 1024)
+alloc(DXListOffset, 4)
+alloc(DXType,4)
+alloc(DXFindChar, 1024)
+alloc(ESIList, 1024)
+alloc(EDIValue, 4)
+alloc(DXMap,4)
+
+label(CompareOffset)
+label(StoreESI)
+label(DoNormal)
+label(LeaveMe)
+label(DXMonster)
+label(NoDupe)
+label(DoVac)
+
+DXListOffset:
+add [eax],al
+add [eax],al
+
+DXType:
+add [eax],al
+add [eax],al
+
+EIP:
+push eax
+push ebx
+push ecx
+push edx
+mov ebx,[DXType]
+cmp ebx, 00 // 0 = Do Nothing
+je NoDupe
+
+cmp ebx, 01 // 1 = Populate ListOffset
+je DXFindChar
+
+cmp ebx, 02 // 2 = Monsters follow you (normal)
+je DoVac
+
+cmp ebx, 03 // 3 = Monsters Stay (DupeXMonster)
+je DoVac
+jmp DoNormal
+
+DXFindChar:
+mov [esi+114],edi
+mov eax,0
+mov ebx,DXListOffset
+mov ecx,ESIList
+mov edx,EDIValue
+
+CompareOffset:
+cmp eax,[ebx]
+je StoreESI
+cmp esi,[ecx+eax*4]
+je LeaveMe
+inc eax
+jmp CompareOffset
+
+StoreESI:
+mov [ecx+eax*4],esi
+inc eax
+mov [ebx],eax
+mov [edx],edi
+
+DoVac:
+mov ebx,[DXListOffset]
+dec ebx
+mov ecx,ESIList
+mov eax,[ecx+ebx*4]
+cmp esi,eax
+je DoNormal
+
+mov ebx,[DXType]
+cmp ebx, 02 // 2 = Monsters follow you (normal DupeX)
+jne DXMonster
+mov edi,[eax+114] //Code for DupeX
+jmp DoNormal
+
+DXMonster:
+cmp ebx, 03 // 3 = DupeXMonster (Monsters stay)
+jne NoDupe
+
+mov edi,[EDIValue] //DupeXMonster Code
+jmp DoNormal
+
+NoDupe:
+mov ebx, 0
+mov [DXListOffset],ebx
+
+
+DoNormal:
+mov [esi+114],edi
+
+LeaveMe:
+pop edx
+pop ecx
+pop ebx
+pop eax
+jmp 009B495D+6//89 BE 14 01 00 00 EB 15 83 7D 0C 00 74 16 83 A6
+
+009B495D:
+jmp EIP
+
+[disable]
+009B495D:
+mov [esi+00000114],edi
+
+dealloc(DXFindChar)
+dealloc(DXListOffset)
+dealloc(ESIList)
+dealloc(EIP)
+dealloc(EDIValue)
+unregistersymbol(EIP)
+unregistersymbol(DXListOffset)
+unregistersymbol(DXType)
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>483</ID>
+              <Description>"DupeX Counter [let this populate then move to filter your char]"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>DXListOffset</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>484</ID>
+              <Description>"Type (0,1,2,3) [off/populate/mobfollow/mobstay]"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>DXType</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>485</ID>
+              <Description>"EIP"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>EIP</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>518</ID>
+          <Description>"SS EAX Mouse [Mobs + Char]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+Alloc(addyy,102)
+Alloc(addxx,102)
+Label(goyy)
+Label(goxx)
+Label(CSReturny)
+Label(CSReturnx)
+
+addyy:
+push eax
+mov eax,[00BEBF98] //CHARACTER POINTER
+mov eax,[eax+11a4]  //pID OFFSET
+cmp esi,eax
+pop eax
+je CSReturny
+mov eax,[00BEC33C]
+mov eax,[eax+978]
+mov eax,[eax+88]
+jmp CSReturny
+
+addxx:
+push eax
+mov eax,[00BEBF98] //CHARACTER POINTER
+mov eax,[eax+11a4]  //pID OFFSET
+cmp esi,eax
+pop eax
+je CSReturnx
+mov eax,[00BEC33C]
+mov eax,[eax+978]
+mov eax,[eax+84]
+jmp CSReturnx
+
+CSReturnx:
+mov [ebp+0c],eax
+call 00539338
+jmp goxx
+
+CSReturny:
+mov [ebp+0c],eax
+call 00539338
+jmp goyy
+
+009B1681: //y
+jmp addyy
+db 90 90 90
+goyy:
+
+009B165B: //x
+jmp addxx
+db 90 90 90
+goxx:
+
+[DISABLE]
+009B1681:
+mov [ebp+0c],eax
+call 00539338
+
+009B165B:
+mov [ebp+0c],eax
+call 00539338
+
+Dealloc(addyy)
+Dealloc(addxx)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>439</ID>
+          <Description>"SSex EAX Vac [Enable no mobs jump]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+alloc(sexeax,512)
+label(ssx)
+label(ssy)
+label(pfx)
+label(pfy)
+label(mx)
+label(my)
+label(rspx)
+label(rspy)
+label(endx)
+label(endy)
+label(retx)
+label(rety)
+label(basex)
+label(basey)
+label(range)
+label(setposx)
+label(setposy)
+
+registersymbol(basex)
+registersymbol(basey)
+registersymbol(range)
+
+sexeax:
+basex:
+db 00 00 00 00
+basey:
+db 00 00 00 00
+range:
+db 00 00 00 00
+setposx:
+db 00 00 00 00
+setposy:
+db 00 00 00 00
+
+ssx:
+cmp EBP,0012EBBC //0012EBBC
+je pfx
+cmp EBP,0012EBD0 //0012EBD0
+je pfx
+cmp EBP,0012EC18 //0012EC18
+je pfx
+cmp EBP,0012EBEC //0012EBEC
+je pfx
+jmp mx
+
+pfx:
+inc [setposx]
+cmp [setposx],30
+je rspx
+mov eax,[basex]
+add eax,[setposx]
+jmp endx
+
+rspx:
+mov [setposx],0
+mov eax,[basex]
+jmp endx
+
+mx:
+mov eax,[basex]
+add eax,[range]
+jmp endx
+
+endx:
+mov [ebp+0c],eax
+call 00539338
+jmp retx
+
+
+ssy:
+cmp EBP,0012EBBC //0012EBBC
+je pfy
+cmp EBP,0012EBD0 //0012EBD0
+je pfy
+cmp EBP,0012EC18 //0012EC18
+je pfy
+cmp EBP,0012EBEC //0012EBEC
+je pfy
+jmp my
+
+pfy:
+mov eax,[basey]
+jmp endy
+
+my:
+inc [setposy]
+cmp [setposy],14
+je rspy
+mov eax,[basey]
+add eax,[setposy]
+sub eax,A
+jmp endy
+
+rspy:
+mov [setposy],0
+mov eax,[basey]
+sub eax,A
+jmp endy
+
+endy:
+mov [ebp+0c],eax
+call 00539338
+jmp rety
+
+
+009B165B://0073F154:   //89 45 0c e8 ?? ?? ?? ?? dd 447 30 d8 c9 8b ce da 45 0c dd d9 009B165B
+jmp ssx
+db 90 90 90
+retx:
+
+009B1681: //up 009B1681
+jmp ssy
+db 90 90 90
+rety:
+
+[disable]
+009B1681:
+mov [ebp+0c],eax
+call 00539338
+
+009B165B:
+mov [ebp+0c],eax
+call 00539338
+
+dealloc(ssx)
+unregistersymbol(basex)
+unregistersymbol(basey)
+unregistersymbol(range)
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>440</ID>
+              <Description>"SSex EAX X"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>basex</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>441</ID>
+              <Description>"SSex EAX Y"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>basey</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>442</ID>
+              <Description>"SSex EAX RANGE"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>range</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>125</ID>
+          <Description>"Kami [not really safe]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>//credits to cam for creating this type of 'vac'
+
+[enable]
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+alloc(timer,4)
+registersymbol(timer)
+
+timer:
+dd 0
+
+
+00452307:
+jmp newmem
+nop
+nop
+returnhere:
+
+newmem:
+pushad
+inc [timer]
+cmp [timer],#120
+jb originalcode
+mov eax,[00BEBFA8]//ppl scan
+test eax,eax
+je originalcode
+mov eax,[eax+18]
+cmp eax,0
+jne originalcode
+mov eax,[00bebfa4]//mob base
+test eax,eax//check crash
+cmp [eax+10],0
+je originalcode
+mov eax,[eax+28]
+mov eax,[eax+4]
+mov ecx,[eax+518]//mobx
+mov edx,[eax+51c]//moby
+mov esi,[00bebf98]//char base
+test esi,esi//check crash
+add ecx,-30 // adjust x
+mov [esi+2b20],ecx
+add edx,-10//adjust y
+mov [esi+2b24],edx
+mov [esi+2b18],1
+mov [timer],0
+jmp originalcode
+
+
+
+originalcode:
+popad
+
+cmp eax,edi
+jle 0045233D
+add eax,-1E
+jmp returnhere
+
+
+[disable]
+00452307:
+cmp eax,edi
+jle 0045233D
+add eax,-1E
+
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>510</ID>
+              <Description>"Timer"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>timer</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>492</ID>
+          <Description>"Selective wall vac"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+alloc(begin,2048)
+alloc(olddata,32)
+alloc(pointer,4)
+alloc(bool,4)
+registersymbol(bool)
+registersymbol(olddata)
+label(set)
+label(ret)
+label(end)
+
+begin:
+cmp [bool],1
+je set
+ret:
+mov esi,olddata
+movsd
+movsd
+movsd
+movsd
+pop edi
+jmp end
+set:
+mov esi,[00BEBFA0]
+mov esi,[esi+24]
+mov [pointer], esi
+mov esi,[pointer]
+mov [olddata],esi
+mov esi,[00BEBFA0]
+mov esi,[esi+28]
+mov [pointer], esi
+mov esi,[pointer]
+mov [olddata+04],esi
+mov esi,[00BEBFA0]
+mov esi,[esi+2C]
+mov [pointer], esi
+mov esi,[pointer]
+mov [olddata+08],esi
+mov esi,[00BEBFA0]
+mov esi,[esi+30]
+mov [pointer], esi
+mov esi,[pointer]
+mov [olddata+0C],esi
+
+mov [bool],0
+jmp ret
+
+009B129F:
+jmp begin
+end:
+
+olddata:
+DB 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+pointer:
+DB 00 00 00 00
+bool:
+DB 01 00 00 00
+
+[DISABLE]
+dealloc(begin)
+dealloc(olddata)
+dealloc(pointer)
+dealloc(bool)
+
+009B129F:
+movsd
+movsd
+movsd
+movsd
+pop edi
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>493</ID>
+              <Description>"bool"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>bool</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>494</ID>
+              <Description>"old data"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>olddata</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>505</ID>
+          <Description>"PerVac v2 [NOP][Left Vac][Enable Lemmings]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+009B4881:
+nop
+nop
+nop
+nop
+nop
+nop
+
+[Disable]
+009B4881:
+mov ecx,[edi+00000140]
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>515</ID>
+          <Description>"dlLuX3 Vac [Mobs and char drop from top of map]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+009804D0: //0.83 25 FF 7F 00 00 8B CB 89 45 E0 E8 14 61 A8 FF 0F
+and eax,00000000
+00903998:
+jne 00903B73
+009B12ED:
+jnge 009B12F4
+
+[DISABLE]
+009804D0: //0.83 25 FF 7F 00 00 8B CB 89 45 E0 E8 14 61 A8 FF 0F
+and eax,00007fff
+00903998: //0.83
+je 00903B73
+009B12ED:
+jnl 009B12F4
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>513</ID>
+          <Description>"-*-*-*-*-*Client Side-*-*-*-*-*-"</Description>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>C08000</Color>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>406</ID>
+          <Description>"cDem [Only use with summons]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+alloc(cdEM,228)
+label(cdEMRet)
+
+006645CA://FF B3 ? ? 00 00 8B F0 FF B3 ? ? 00 00 8D 7D ? A5 A5 A5 8D 45 ? 50 A5
+jmp cdEM
+db 90 90 90 90 90 90 90 90 90
+cdEMRet:
+
+cdEM:
+mov edx,[00BEBF98] //24 BC EB 5E 8C 72 E1 03 E4 9D 28 4A BC E3 8A 61
+mov ecx,[edx+116C]
+push ecx
+mov ecx,[edx+1170]
+sub ecx,25//range / facing left
+push ecx
+mov esi,eax
+jmp cdEMRet
+
+[disable]
+006645CA:
+db FF B3 1C 05 00 00 8B F0 FF B3 18 05 00 00
+dealloc(cdEM)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>420</ID>
+          <Description>"DEMi [Only use with summons]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+alloc(dEM,256)
+alloc(dv,100)
+alloc(uvx,100)
+alloc(uvy,100)
+alloc(dvrange,4)
+
+registersymbol(dEM)
+
+label(normalx)
+label(endx)
+
+label(normaly)
+label(endy)
+
+label(dvzero)
+label(uvzero)
+
+label(dvret)
+label(uvxret)
+label(uvyret)
+
+label(FuckingStopX)
+label(FuckingStopY)
+
+dvrange:
+dd 0 //adjust range (0 = no range)
+
+dv:
+mov eax,[00BEBF98] // character pointer base 8B 35 ? ? ? ? 6A 01 5F 57 //updated 0.83
+push eax
+mov eax,[eax+116C] // char x offset 89 86 ? ? ? ? 8B 86 ? ? ? ? 89 9E //updated 0.83
+cmp [dvrange],0
+je dvzero
+
+add eax,[dvrange]
+
+dvzero: //UPDATE!!!!
+mov [ebx+510],ecx // offset from dEMI opcode
+mov [ebx+518],eax // offset from dEMI opcode - 8
+pop eax
+mov eax,[eax+1170] // char y offset
+mov [ebx+514],eax // offset from dEMI opcode - 4
+mov [ebx+51C],eax // offset from dEMI opcode + 4
+jmp dvret
+
+uvx:
+//cmp [00A5DE23],1//Check CS Indicator //not updated
+je FuckingStopX
+push ecx
+mov ecx,[00BEBF98] // character pointer base
+add ecx,116C // char x offset
+cmp ebx,ecx
+je normalx
+
+mov ecx,[ecx]
+cmp [dvrange],0
+je uvzero
+
+add ecx,[dvrange]
+
+uvzero:
+cmp [ebx],ecx
+je endx
+
+normalx:
+mov [ebx],eax
+
+endx:
+pop ecx
+mov edi,[ebp+10]
+jmp uvxret
+
+uvy:
+//cmp [00A5DE23],1//Check CS Indicator //not updated
+je FuckingStopY
+push ecx
+mov ecx,[00BEBF98] // character pointer base
+add ecx,1170 // char y offset
+cmp edi,ecx
+je normaly
+
+mov ecx,[ecx]
+cmp [edi],ecx
+je endy
+
+normaly:
+mov [edi],eax
+
+endy:
+pop ecx
+mov ebx,[ebp+14]
+jmp uvyret
+
+FuckingStopX:
+mov [ebx],eax
+mov edi,[ebp+10]
+jmp uvxret
+
+FuckingStopY:
+mov [edi],eax
+mov ebx,[ebp+14]
+jmp uvyret
+
+006685DC: // 89 8B 18 05 00 00 89 83 1C 05 00 00 8D 45 C4 50 //updated 0.83
+jmp dv
+nop
+dvret:
+
+009B62ED: // 89 03 8b 7d 10 85 ff //updated 0.83
+jmp uvx
+uvxret:
+
+009B6352: // 89 07 8b 5d 14 85 db //updated 0.83 009B6352
+jmp uvy
+uvyret:
+
+[disable]
+006685DC:
+mov [ebx+00000518],ecx
+009B62ED:
+mov [ebx],eax
+mov edi,[ebp+10]
+009B6352:
+mov [edi],eax
+mov ebx,[ebp+14]
+dealloc(dv)
+dealloc(uvx)
+dealloc(uvy)
+dealloc(dvrange)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>511</ID>
+          <Description>"ZZ Vac v1"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[Enable]
+00AF0DE6:
+add [eax], al
+
+[Disable]
+00AF0DE6:
+lock aas
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>512</ID>
+          <Description>"ZZ Vac v2"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+009B17A0://ZZ Vac
+nop
+nop
+nop
+
+009B17B0://ZZ Vac
+nop
+nop
+nop
+
+[DISABLE]
+009B17A0://ZZ Vac
+fld qword ptr [ebp-10]
+
+009B17B0://ZZ Vac
+fld qword ptr [ebp-18]
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>514</ID>
+          <Description>"-*-*-*-*-*Client Side-*-*-*-*-*-"</Description>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>C08000</Color>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>490</ID>
+      <Description>"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>808040</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>477</ID>
+      <Description>"Character effects"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>C08000</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>566</ID>
+          <Description>"Levitate"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+009B2CC9:
+db 0F 85
+
+[disable]
+
+009B2CC9:
+db 0F 84
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>549</ID>
+          <Description>"Unlimited Attack"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[Enable]
+009536E0:
+db EB
+
+[Disable]
+009536E0: // 7E ? 83 ? ? 7D ? 8B
+db 7E
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>550</ID>
+          <Description>"No Breath"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[Enable]
+00452316:
+db 7C
+
+[Disable]
+00452316: // 7D ? 8B ? ? ? 00 00 8B D0 83 E2 ? 89
+db 7D
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>66</ID>
+          <Description>"Point 0 Star/Arrow"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+009516BA: //0f 84 ?? ?? ?? ?? 3b c6 0f 84
+db 90 90 90 90 90 90
+
+009516C2: //2 addies under
+db 0f 89
+
+
+[disable]
+009516BA: //0f 84 ?? ?? ?? ?? 3b c6 0f 84
+je 0095133A
+
+009516C2: //2 addies under
+je 0095138F
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>529</ID>
+          <Description>"Char animation hack"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+alloc(CharDir,128)
+alloc(CharDirection,4)
+alloc(CharBypass,4)
+alloc(CharBypassOn,4)
+registersymbol(CharDirection)
+registersymbol(CharBypass)
+registersymbol(CharBypassOn)
+label(CharDirJmp)
+label(NormDir)
+label(ModChar)
+
+009B7B95:
+jmp CharDir
+db 90 90
+CharDirJmp:
+
+CharDir:
+mov [CharDirection], eax
+jmp NormDir
+
+NormDir:
+cmp [CharBypassOn],1
+je ModChar
+mov [edi],eax
+pop edi
+pop esi
+ret 0008
+jmp CharDirJmp
+
+ModChar:
+mov eax, [CharBypass]
+mov [edi],eax
+pop edi
+pop esi
+ret 0008
+jmp CharDirJmp
+
+CharDirection:
+dd 00
+
+CharBypass:
+dd 00
+
+CharBypassOn:
+dd 00
+
+[disable]
+009B7B95:
+db 89 07 5F 5E C2 08 00
+
+dealloc(CharDir)
+dealloc(CharDirection)
+dealloc(CharBypass)
+dealloc(CharBypassOn)
+unregistersymbol(CharDirection)
+unregistersymbol(CharBypass)
+unregistersymbol(CharBypassOn)
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>531</ID>
+              <Description>"Set animation value to use"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>CharBypass</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>532</ID>
+              <Description>"Enable [0=OFF/1=ON]"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>FF8080</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>CharBypassOn</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>530</ID>
+          <Description>"Animation value"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>CharDirection</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>404</ID>
+          <Description>"Lag Hack [Client Side]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable] 
+009B16F2: //74 0B 8B 06 6A 1E 8B CE FF 50 30 5E C3 33 C0 5E
+db 75 0b 
+[disable] 
+009B16F2:
+db 74 0b
+
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>36</ID>
+          <Description>"Tubi"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+00A091EE:
+db 90 90 90 90 90 90
+[disable]
+00A091EE://89 BE ? ? ? ? E8 ? ? ? FF 83 4D ? FF 8D 4D ? 89 86
+db 89 be A4 20 00 00
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>37</ID>
+          <Description>"Alt Tubi"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+00485C39:
+db 90 90
+[disable]
+00485C39://33 C0 5E C2 08 00 B8 ? ? ? 00 E8 ? ? ? 00 83 EC 28 53
+db 33 c0
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>478</ID>
+          <Description>"Ultra Tubi"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+00485C39: //33 C0 5E C2 ? 00 8B 01 FF 50 ? FF B0 ? ? 00 00 05 ? ? 00 00 50 E8
+db 90 90
+00A091EE: //89 BE ? ? ? ? E8 ? ? ? FF 83 4D ? ? 8D 4D ? 89 86 ? ? 00 00 89
+db 90 90 90 90 90 90
+[disable]
+00485C39:
+db 33 C0
+00A091EE:
+db 89 be a4 20 00 00
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>247</ID>
+          <Description>"No Blink"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+0093252F: //7D 28 8B CF E8 05 62 AF FF 8B F8 83 C7 1E 57 8D
+db 90 90
+[disable]
+0093252F:
+db 7d 28
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>461</ID>
+          <Description>"Infinite Rope/Ladder [Up/Down]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+009CC791://Inf Ladder Down
+db 73
+009CC727://Inf Ladder Up
+db 73
+[DISABLE]
+009CFEDD://7E ? FF 76 ? 8D 46 ? 50 E8 ? ? ? FF 8B 7F ? 89 7D second result
+db 7e
+009CC727://7D ? FF 76 ? 8D 46 ? 50 E8 ? ? ? FF 59 59 8B 4F ? 89 second result
+db 7d
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>509</ID>
+          <Description>"Spawn Control [Define maps and X/Y in script]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+define(x1,#1011)
+define(y1,#960)
+define(x2,#129)
+define(y2,#26)
+define(x3,#-149)
+define(y3,#95)
+define(x4,#135)
+define(y4,#14)
+define(x5,#-804)
+define(y5,#492)
+define(x6,#-1081)
+define(y6,#72)
+
+
+define(map1,#102000000)
+define(map2,#220010500)
+define(map3,#220020300)
+define(map4,#220030200)
+define(map5,#220040200)
+define(map6,#220040100)
+
+registersymbol(map1)
+registersymbol(map2)
+registersymbol(map3)
+registersymbol(map4)
+registersymbol(map5)
+registersymbol(map6)
+
+
+alloc(SpawnXY,26)
+alloc(SPXY,8)
+registersymbol(SPXY)
+label(SpawnXYRet)
+
+alloc(nothing,12)
+alloc(checkmap,96)
+alloc(setxy1,20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+00949635:
+jmp checkmap
+db 90 90
+SpawnXYRet:
+
+
+checkmap:
+mov eax,[00BED788] //map base
+mov eax,[eax+668] //map id offset
+cmp eax,map1
+je setxy1
+cmp eax,map2
+je setxy2
+cmp eax,map3
+je setxy3
+cmp eax,map4
+je setxy4
+cmp eax,map5
+je setxy5
+cmp eax,map6
+je setxy6
+jmp nothing
+
+
+//set xy
+
+setxy1:
+mov [SPXY],x1
+mov [SPXY+04],y1
+jmp SpawnXY
+
+setxy2:
+mov [SPXY],x2
+mov [SPXY+04],y2
+jmp SpawnXY
+
+setxy3:
+mov [SPXY],x3
+mov [SPXY+04],y3
+jmp SpawnXY
+
+setxy4:
+mov [SPXY],x4
+mov [SPXY+04],y4
+jmp SpawnXY
+
+
+setxy5:
+mov [SPXY],x5
+mov [SPXY+04],y5
+jmp SpawnXY
+
+
+setxy6:
+mov [SPXY],x6
+mov [SPXY+04],y6
+jmp SpawnXY
+
+
+
+
+nothing:
+cmp dword ptr [esi+18],00
+//mov [ebp-1C],eax
+jmp SpawnXYRet
+
+
+
+SpawnXY:
+mov eax,[SPXY]
+mov [ebp-20],eax
+mov eax,[SPXY+04]
+mov [ebp-1c],eax
+cmp dword ptr [esi+18],00
+jmp SpawnXYRet
+
+SPXY:
+dd #00
+SPXY+04:
+dd #00
+
+[disable]
+00949635://83 ? ? 00 89 45 ? 74 ? 8B ? ? 83 ? ? 00 89 45 ? 8B
+db 83 7E 18 00 89 45 E4
+dealloc(SpawnXY)
+dealloc(SPXY)
+unregistersymbol(SPXY)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>301</ID>
+          <Description>"No Knockback"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+00958BA6: //Player Noknockback 7C 03 6A 64 58 3B C3 7F 02 33 C0 33 C9 39 45 D8
+jnl 00958BAB//Player Noknockback
+
+[DISABLE]
+00958BA6://Player Noknockback
+jnge 00958BAB//Player Noknockback
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>534</ID>
+          <Description>"No Delay Attack [Spoof Timestamp for attacks before using]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>//ALL CREDITS FOR THIS CHEAT TABLE GO TO BLITZ
+
+[enable]
+0045478F: //0F 8E ?? ?? ?? ?? 83 C0 ?? 89 45 ?? 39 BE ou 83 C0 0A 89 45 C0 89 75 0C 8B 87 84 04 00 00 99
+db 0f 8f
+
+[disable]
+0045478F:
+db 0f 8e
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>537</ID>
+          <Description>"Move Unmovable skills"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+00836216://Move forbidden skill (keyboard)0F 84 ? ? 00 00 83 ? ? 0F 84 ? ? 00 00 8B ? ? ? ? 00
+db 90 90 90 90 90 90
+008ABAF1://Move forbidden skill (skill window)0F 84 ? ? 00 00 83 FA ? 0F 84 ? ? 00 00
+db 90 90 90 90 90 90
+///0090BF5E://Move forbidden skill (quick keys)0F 84 ? ? 00 00 83 FA ? 0F 84 ? ? 00 00
+//db 90 90 90 90 90 90
+[disable]
+00836216:
+db 0F 84 F6 02 00 00
+008ABAF1:
+db 0F 84 69 04 00 00
+//0090BF5E:
+//db 0F 84 F4 02 00 00
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>538</ID>
+          <Description>"Skill injection [not really useful, detected on 0.83 servers]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>//Skill injection on nimble feet and recovery
+[Enable]
+Alloc(SkID,2048)
+Label(Sklvl)
+
+Label(skRecover)
+Label(skNormal)
+Label(SkBack)
+Label(lvlRecover)
+Label(lvlNormal)
+Label(SklvlBack)
+
+SkID:
+cmp [eax],3EA
+jne skRecover
+mov [eax],00000000 //skill1
+jmp skNormal
+
+skRecover:
+cmp [eax],3E9
+jne skNormal
+mov [eax],00000000 //skill2
+jmp skNormal
+
+Sklvl:
+cmp [edi],00000000 //skill1
+jne lvlRecover
+mov [edi],3EA
+jmp lvlNormal
+
+skNormal:
+push [ebp+08]
+mov edi,[eax]
+jmp SkBack
+
+lvlRecover:
+cmp [edi],00000000//skill2
+jne lvlNormal
+mov [edi],3E9
+jmp lvlNormal
+
+lvlNormal:
+mov eax,[edi]
+push 05
+push eax
+jmp SklvlBack
+
+008ABE4B:
+jmp SkID
+SkBack:
+
+008F83C3:
+jmp Sklvl
+SklvlBack:
+
+[Disable]
+008ABE4B:
+push [ebp+08]
+mov edi,[eax]
+
+008F83C3:
+mov eax,[edi]
+push 05
+push eax
+
+Dealloc(SkID)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>539</ID>
+          <Description>"Full monster book [useful for drops]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+alloc(MBook,10)
+
+0095FC8B:
+call MBook
+
+MBook:
+mov ecx,[ebp-0c]
+mov eax,00000005
+ret
+
+[disable]
+0095FC8B://8B 4D ? 8B C6 5E 64 89 0D 00 00 00 00 C9 C3 B8 ? ? ? 00 E8 ? ? ? 00 83 EC 58
+db 8b 4d f4 8b c6
+dealloc(MBook)
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>541</ID>
+          <Description>"Sit Hack [Always sitting]"</Description>
+          <LastState/>
+          <Color>FF8080</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+009506E9:
+db 75
+[disable]
+009506E9://74 0B 8B 45 10 83 E0 01 83 C8 14 EB
+db 74
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>567</ID>
+          <Description>"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-"</Description>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>808040</Color>
+          <GroupHeader>1</GroupHeader>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>548</ID>
+      <Description>"Not Tested"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>404080</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>491</ID>
+      <Description>"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>808040</Color>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>459</ID>
+      <Description>"Not Updated"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>404080</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>1</ID>
+          <Description>"Auto login"</Description>
+          <LastState/>
+          <Color>000000</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[enable]
+alloc(MainSec,1000)
+alloc(user,12)
+alloc(pass,12)
+alloc(ServerNum,4)
+alloc(Channel,4)
+alloc(CharS,4)
+alloc(Delay,4)
+registersymbol(user)
+registersymbol(pass)
+registersymbol(ServerNum)
+registersymbol(Channel)
+label(MainRet)
+label(skiplol)
+label(Login)
+label(Server)
+
+pass:
+db 'password'
+user:
+db 'admin1'
+
+ServerNum:
+dd 01
+Channel:
+dd 01
+
+00A044FE:
+jmp MainSec
+MainRet:
+
+MainSec:
+pushad
+inc [Delay]
+cmp dword ptr [Delay],64
+jnge skiplol
+mov ecx,[00BF1028]
+cmp ecx,b35ff8b8
+je Login
+mov ecx,[00BF1028]
+cmp ecx,0003a6e9
+je Server
+jmp skiplol
+
+Login:
+mov [Delay],00
+mov ecx,[00BF0F54]
+cmp [ecx+184],01
+je skiplol
+push pass
+push user
+call 009E00AF
+skiplol:
+popad
+mov eax,[00BF1028]
+jmp MainRet
+
+Server:
+mov [Delay],00
+push [Channel]
+push [ServerNum]
+mov ecx,[00BF0F54]
+call 0062e463 
+jmp skiplol
+
+
+
+[disable]
+00A044FE:
+db a1 28 a2 c9 00
+dealloc(MainSec)
+dealloc(user)
+dealloc(pass)
+dealloc(ServerNum)
+dealloc(Channel)
+dealloc(CharS)
+dealloc(Delay)
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>462</ID>
+              <Description>"ServerNum"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>ServerNum</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>463</ID>
+              <Description>"Channel"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>000000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>Channel</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>535</ID>
+              <Description>"Username"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>000000</Color>
+              <VariableType>String</VariableType>
+              <Length>12</Length>
+              <Unicode>0</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>user</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>536</ID>
+              <Description>"Password"</Description>
+              <Color>000000</Color>
+              <VariableType>String</VariableType>
+              <Length>12</Length>
+              <Unicode>0</Unicode>
+              <CodePage>0</CodePage>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>pass</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>90</ID>
+      <Description>"Update Char Info"</Description>
+      <LastState/>
+      <Color>000000</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>//Created by Cam1596
+[enable]
+alloc(UpdateInfo,68)
+label(SkipUpdate)
+label(UpdateRet)
+
+00A04F4F://tubi fix
+db 00
+
+0050827E:
+jmp UpdateInfo
+UpdateRet:
+
+UpdateInfo:
+mov eax,[00AF44B8] //00A78900
+pushad
+inc [eax+4000]
+cmp dword ptr [eax+4000],64//update rate
+jnge SkipUpdate
+mov [eax+4000],00
+mov esi,[eax+20A4]
+mov ecx,[00BF2E00]//8B 0D ? ? ? ? 8D 45 ? 50 E8 ? ? ? 00 83 7D ? 00 8B  //0.83
+push 01
+push 01
+push esi
+call 0052C315//refresh info window //00987257
+SkipUpdate:
+popad
+jmp UpdateRet
+
+[disable]
+0050827E://A1 ? ? ? 00 33 DB 3B C3 56 57 89 4D ? 0F 84 ? ? 00 00
+db a1 ac 24 d8 00
+
+00A04F4F://tubi fix //01 00 00 00 E8 ? ? ? FF 83 4D ? FF 8D 4D ? 89 86 ? ? ? ? E8
+db 00
+dealloc(UpdateInfo)
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>91</ID>
+          <Description>"Character Name"</Description>
+          <LastState RealAddress="315AC260"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FF8080</Color>
+          <VariableType>String</VariableType>
+          <Length>12</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>BF3CD8</Address>
+          <Offsets>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>92</ID>
+          <Description>"Character Server ID"</Description>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00D8B9A4</Address>
+          <Offsets>
+            <Offset>0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>93</ID>
+          <Description>"Level"</Description>
+          <LastState Value="1880395913" RealAddress="315AC28F"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BF3CD8</Address>
+          <Offsets>
+            <Offset>33</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>94</ID>
+          <Description>"Job ID"</Description>
+          <Color>000000</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>00d85078</Address>
+          <Offsets>
+            <Offset>AAE</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>95</ID>
+          <Description>"Fame"</Description>
+          <Color>000000</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>00d85078</Address>
+          <Offsets>
+            <Offset>AB0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>96</ID>
+          <Description>"Guild"</Description>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>12</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>00d85078</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>AB4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>97</ID>
+          <Description>"Alliance"</Description>
+          <Color>000000</Color>
+          <VariableType>String</VariableType>
+          <Length>12</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>00d85078</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>AB8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>559</ID>
+          <Description>"Channel"</Description>
+          <LastState Value="0" RealAddress="00BF5410"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>000000</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00BE7918</Address>
+          <Offsets>
+            <Offset>37F0</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>568</ID>
+      <Description>"Damage Shift God Mode"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[enable]
+alloc(Damage,4)
+alloc(minDamage,4)
+alloc(maxDamage,4)
+alloc(ClientDamage,128)
+label(DamageReset)
+label(ServerDamage)
+label(ClientJump)
+label(ServerJump)
+registersymbol(minDamage)
+registersymbol(maxDamage)
+
+ClientDamage:
+inc [Damage]
+push ebx
+mov ebx,[maxDamage]
+inc ebx
+cmp [Damage],ebx
+pop ebx
+jnl DamageReset
+sub eax, [Damage]
+mov ecx,edi
+jmp ClientJump
+
+DamageReset:
+push ebx
+mov ebx,[minDamage]
+mov [Damage],ebx
+pop ebx
+sub eax, [Damage]
+mov ecx,edi
+jmp ClientJump
+
+ServerDamage:
+push [Damage]
+lea ecx,[ebp-20]
+call 00457cda
+jmp ServerJump
+
+minDamage:
+db 01 00 00 00
+maxDamage:
+db 02 00 00 00
+
+00A457EC:
+jmp ClientDamage
+ClientJump:
+
+007C2998:
+db 74
+
+0065F287:
+jmp ServerDamage
+nop
+nop
+nop
+nop
+nop
+nop
+ServerJump:
+
+[disable]
+00A457EC:
+sub eax, [ebp+08]
+mov ecx,edi
+
+007C2998:
+db 75
+
+0065F287:
+push [ebp+08]
+lea ecx,[ebp-20]
+call 00428C15
+
+dealloc(ClientDamage)
+dealloc(ServerDamage)
+dealloc(Damage)
+unregistersymbol(minDamage)
+unregistersymbol(maxDamage)
+</AssemblerScript>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Change of je Maplestory.exe+6141F8</Description>
+      <AddressString>Maplestory.exe+6141EB</AddressString>
+      <Before>
+        <Byte>8B</Byte>
+        <Byte>41</Byte>
+        <Byte>08</Byte>
+        <Byte>85</Byte>
+        <Byte>C0</Byte>
+      </Before>
+      <Actual>
+        <Byte>74</Byte>
+        <Byte>0B</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>06</Byte>
+        <Byte>00</Byte>
+        <Byte>0B</Byte>
+        <Byte>BF</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of je Maplestory.exe+5B2EE3</Description>
+      <AddressString>Maplestory.exe+5B2CC9</AddressString>
+      <Before>
+        <Byte>95</Byte>
+        <Byte>FB</Byte>
+        <Byte>FF</Byte>
+        <Byte>85</Byte>
+        <Byte>C0</Byte>
+      </Before>
+      <Actual>
+        <Byte>0F</Byte>
+        <Byte>84</Byte>
+        <Byte>14</Byte>
+        <Byte>02</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+      </Actual>
+      <After>
+        <Byte>8B</Byte>
+        <Byte>8E</Byte>
+        <Byte>A0</Byte>
+        <Byte>01</Byte>
+        <Byte>00</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+  <Comments>Hello WAND Users!
+</Comments>
+  <LuaScript>function UDF1_CheckListBox1ChangeBounds(sender)
+
+end
+
+function UDF1_CEToggleBox1MouseMove(sender, x, y)
+
+end
+
+function UDF1_CEButton1ChangeBounds(sender)
+
+end
+
+function UDF1_CEButton1Click(sender)
+
+end
+
+</LuaScript>
+</CheatTable>

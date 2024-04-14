@@ -1,0 +1,17 @@
+2060000|[Consume] Arrow for Bow
+2061000|[Consume] Arrow for Crossbow
+2440000|[Consume] Richie Gold's Fake Lead
+2440001|[Consume] Gemstone Imp
+4170032|[Etc] Emerald Mirror Glass
+4170033|[Etc] Spinel Mirror Glass
+4170031|[Etc] Clear Mirror Glass
+2022309|[Consume] Treasure Hunt Note
+2430251|[Consume] Treasure Hunt Note
+2022995|[Consume] Pebble
+2022996|[Consume] Snail Shell
+4170039|[Etc] Magical Box
+4170041|[Etc] Chaos Box
+4170038|[Etc] Infinite Quill
+4170040|[Etc] Fairy Tear
+4170036|[Etc] Sage Quill
+4170025|[Etc] Hero's Key
