@@ -71,8 +71,8 @@ def auto_clicker(buff_press_key,attack_key, start_stop_key, buff_keys):
 if __name__ == '__main__':
     window = tk.Tk()
     window.geometry("500x300")
-    photo = tk.PhotoImage(file = "C:\\Users\\dimap\\Desktop\\AutoMSPlayer\\maplestory-256x256.png")
-    window.iconphoto(False,photo)
+    # photo = tk.PhotoImage(file = "C:\\Users\\dimap\\Desktop\\AutoMSPlayer\\maplestory-256x256.png")
+    # window.iconphoto(False,photo)
     window.title("AutoMapleClicker")
     label_buff = tk.Label(text="Activate Buff key")
     entry_buff = tk.Entry()
@@ -91,12 +91,12 @@ if __name__ == '__main__':
     label_start_stop.pack()
     entry_start_stop.pack()
 
-    # tk.Button(width="10",text="Start", command=lambda: auto_clicker(entry_buff.get(), entry_attack.get(),
-    #                                                           entry_start_stop.get(), entry_buff_keys.get())).pack()
-    # tk.Button(text="Cancel", command=lambda: set_start_program(False)).pack()
+    tk.Button(width="10",text="Start", command=lambda: auto_clicker(entry_buff.get(), entry_attack.get(),
+                                                              entry_start_stop.get(), entry_buff_keys.get())).pack()
+    tk.Button(text="Cancel", command=lambda: set_start_program(False)).pack()
 
-    tk.Button(text="Start Loop", command=lambda: auto_clicker("-","a",
-                                                              "=", "c")).pack()
+    # tk.Button(text="Start Loop", command=lambda: auto_clicker("-","a",
+    #                                                           "=", "c")).pack()
     tk.Button(text="Cancel", command=lambda: set_start_program(False)).pack()
 
     window.mainloop()

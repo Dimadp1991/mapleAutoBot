@@ -1,6 +1,5 @@
 from random import randint
 from time import sleep
-from pip import main
 import pydirectinput
 from  datetime import datetime
 import pandas as pd
@@ -39,6 +38,7 @@ def AutoBuff():
 
 if __name__ == '__main__':
     pydirectinput.PAUSE=0.06
+    pydirectinput.FAILSAFE=False
     sleep(3)
     random_int=0
     current_side="right" if random_int % 2 == 0 else "left"
@@ -106,10 +106,7 @@ if __name__ == '__main__':
 
                 # fast_step(side=current_side,how_many=1)
                 pydirectinput.keyDown(attack_key)
-          
 
-              
-      
             else:
                 pydirectinput.keyUp(attack_key)  
                 if auto_pick_up:  
@@ -130,5 +127,3 @@ if __name__ == '__main__':
             if keyboard.is_pressed("-"):
                 attack_key= "d" if  attack_key=="a" else "a"
                 print(f"attack  key is {attack_key} ")
-
-    # R> Scarga Must have prequest Done
